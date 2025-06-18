@@ -1,6 +1,4 @@
 .thank-you-hero {
-  @apply bg-blue-lightest;
-
   &-inner {
     @apply shop-container flex flex-col items-center text-center py-3;
     @apply sm:flex-row sm:justify-between sm:text-left;

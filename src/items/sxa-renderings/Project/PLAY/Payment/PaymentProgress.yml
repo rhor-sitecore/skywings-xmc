@@ -22,6 +22,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/PLAY/playwebsite/Data/PaymentProgress
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bfdc1847-a9da-4bcd-ab34-d9e690237fd3"
 Languages:
 - Language: en
   Versions:

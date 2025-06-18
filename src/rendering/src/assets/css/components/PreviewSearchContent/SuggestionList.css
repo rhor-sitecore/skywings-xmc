@@ -1,7 +1,6 @@
 .preview-search-content-container {
   .suggestion-list {
-    @apply hidden gap-3 p-8 bg-pink-darkest w-[14rem];
-    @apply xs:flex xs:flex-col;
+    @apply hidden gap-3 p-8 w-[14rem];
 
     .suggestion-list-title {
       @apply font-bold whitespace-nowrap text-white;
@@ -11,7 +10,7 @@
       @apply flex flex-col gap-3 w-fit;
 
       .suggestion-item {
-        @apply text-blue bg-white rounded-lg p-2;
+        @apply bg-white rounded-lg p-2;
         @apply first-letter:capitalize;
       }
     }

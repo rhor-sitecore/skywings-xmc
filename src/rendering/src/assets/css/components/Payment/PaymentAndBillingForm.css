@@ -14,7 +14,7 @@
 
     input:checked + label {
       img {
-        @apply border border-gray-dark border-solid rounded-lg;
+        @apply border border-solid rounded-lg;
       }
     }
 

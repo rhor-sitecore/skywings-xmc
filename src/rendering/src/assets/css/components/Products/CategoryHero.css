@@ -1,5 +1,5 @@
 .category-hero {
-  @apply py-4 bg-blue text-white text-sm;
+  @apply py-4 text-white text-sm;
 
   &-container {
     @apply shop-container flex flex-wrap items-center;

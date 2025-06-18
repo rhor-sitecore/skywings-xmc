@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
-import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import React from 'react';
+import { ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isCommerceEnabled } from '../../helpers/CommerceHelper';
 import { useI18n } from 'next-localization';
-import PreviewSearchWidget from '../PreviewSearchContent/PreviewSearchContent';
-import { isSearchSDKEnabled } from '../../services/SearchSDKService';
+import {
+  Plane,
+} from "lucide-react"
 
 export type MainNavigationProps = ComponentProps & {
   fields: {
@@ -42,66 +42,38 @@ export type MainNavigationProps = ComponentProps & {
 };
 
 const MainNavigation = (props: MainNavigationProps): JSX.Element => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
   const { t } = useI18n();
 
   const sxaStyles = `${props.params?.styles || ''}`;
 
-  const shopLink = isCommerceEnabled && (
-    <li className="text-menu-item">
-      <Link href="/shop">Shop</Link>
-    </li>
-  );
-
   return (
-    <nav className={`main-navigation ${sxaStyles}`}>
-      <div className="navigation-content">
-        <div className="controls-container container">
-          <Link href="/" className="logo-link">
-            <Image
-              field={props.fields.data.item.headerLogo.jsonValue}
-              alt={props.fields.data.item.headerLogo.alt}
-            />
-          </Link>
-          <button
-            className="items-toggle"
-            aria-label="open menu"
-            type="button"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </div>
-        <div className={'items-container' + (navbarOpen ? ' opened' : ' closed')}>
-          <ul className="container">
+    <header className={`border-b bg-white sticky top-0 z-50 ${sxaStyles}`}>
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-center space-x-2">
+            <Plane className="h-8 w-8 text-blue-600" />
+            <span className="text-2xl font-bold text-blue-600">SkyWings</span>
+          </div>
+
+          <nav className="hidden md:flex items-center space-x-8">
             {props.fields?.data?.links?.children?.results?.map((item, index) => (
-              <li className="text-menu-item" key={index}>
-                <Link href={item.field?.jsonValue?.value?.href ?? '#'} prefetch={false}>
+                <Link key={index} href={item.field?.jsonValue?.value?.href ?? '#'} prefetch={false} className="text-gray-700 hover:text-blue-600 font-medium">
                   {item.displayName}
                 </Link>
-              </li>
             ))}
-            {shopLink}
-            <li className="button-menu-item">
-              <Link href="/tickets" className="btn-main">
-                {t('Book Tickets') || 'Book Tickets'}
-              </Link>
-            </li>
-          </ul>
-          {isSearchSDKEnabled && (
-            <div className="search-input-container">
-              <PreviewSearchWidget rfkId="rfkid_6" />
-            </div>
-          )}
+          </nav>
+
+          <div className="flex items-center space-x-4">
+            <Link href="#">
+              {t('Sign In') || 'Sign In'}
+            </Link>
+            <Link href="/tickets" className="btn-main">
+              {t('Join SkyWings') || 'Join SkyWings'}
+            </Link>
+          </div>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 

@@ -24,7 +24,7 @@
       }
 
       &-type {
-        @apply bg-gray-light text-blue-darkest capitalize px-2 max-w-fit;
+        @apply capitalize px-2 max-w-fit;
       }
 
       &-name {

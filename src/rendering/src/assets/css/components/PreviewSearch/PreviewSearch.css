@@ -9,7 +9,7 @@
 
     .preview-search-modal-container {
       @apply min-h-[300px] h-[calc(100vh-7rem)];
-      @apply bg-gray-light w-full flex flex-row flex-wrap border border-solid border-gray p-3 overflow-y-auto;
+      @apply w-full flex flex-row flex-wrap border border-solid p-3 overflow-y-auto;
       @apply sm:p-5;
       @apply lg:h-[calc(100vh-100px)];
       @apply lg:flex-initial lg:py-5 lg:px-4;
@@ -30,12 +30,6 @@
       .list-container-title {
         @apply font-bold mb-1;
       }
-
-      .list-item {
-        a {
-          @apply text-blue;
-        }
-      }
     }
   }
 
@@ -49,7 +43,7 @@
     }
 
     .view-all-link {
-      @apply text-blue font-medium;
+      @apply font-medium;
     }
   }
 }

@@ -2,9 +2,7 @@
   @apply space-y-5 min-w-full;
 
   .information-block {
-    @apply grid grid-cols-1 gap-5 bg-blue items-stretch p-6 bg-element bg-no-repeat bg-left-bottom;
-    @apply xs:grid-cols-3;
-    @apply xl:grid-cols-10;
+    @apply grid grid-cols-1 gap-5 items-stretch p-6 bg-no-repeat bg-left-bottom;
 
     .info-col-left {
       @apply col-span-1 align-top text-center self-center uppercase text-black;
@@ -25,8 +23,6 @@
 
     .info-col-content {
       @apply col-span-1 text-white;
-      @apply xs:col-span-2;
-      @apply xl:col-span-7;
 
       .info-col-title {
         @apply font-bold uppercase mb-0;
@@ -44,10 +40,6 @@
       .info-col-cta {
         @apply text-right flex pt-2;
       }
-    }
-
-    &.premium {
-      @apply bg-orange;
     }
   }
 }

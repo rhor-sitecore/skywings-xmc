@@ -19,7 +19,7 @@
         }
 
         .news-date {
-          @apply text-gray-dark text-xs pb-3;
+          @apply text-xs pb-3;
         }
 
         .news-excerpt {

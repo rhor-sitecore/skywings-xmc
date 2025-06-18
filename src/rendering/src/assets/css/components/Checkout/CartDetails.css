@@ -33,7 +33,7 @@
   }
 
   .cart-summary {
-    @apply px-2 bg-white-dark;
+    @apply px-2;
 
     &:not(:empty) {
       @apply py-1;
@@ -52,17 +52,17 @@
     @apply w-32 flex;
 
     .quantity-label {
-      @apply basis-2/3 border-2 border-gray p-0.5;
+      @apply basis-2/3 border-2 p-0.5;
     }
 
     .quantity-num {
-      @apply basis-1/3 border-2 border-gray bg-gray text-white-light italic text-center p-0.5;
+      @apply basis-1/3 border-2 italic text-center p-0.5;
     }
   }
 
   .promo-input {
     input {
-      @apply italic px-2 py-1 mt-1 border-2 border-black-lightest w-full;
+      @apply italic px-2 py-1 mt-1 border-2 w-full;
 
       &:focus,
       &:active {
@@ -79,7 +79,7 @@
         }
 
         &-remove {
-          @apply text-sm ml-3 text-black-lightest;
+          @apply text-sm ml-3;
 
           svg {
             @apply transform rotate-45 mt-1;
@@ -87,15 +87,11 @@
         }
 
         &-amount {
-          @apply text-pink font-bold ml-auto;
+          @apply font-bold ml-auto;
         }
 
         &-code {
           @apply text-sm font-bold break-all;
-        }
-
-        &-desc {
-          @apply text-sm text-black-lightest;
         }
       }
     }

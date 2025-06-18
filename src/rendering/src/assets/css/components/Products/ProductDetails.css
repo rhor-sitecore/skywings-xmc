@@ -32,7 +32,7 @@
             }
 
             .product-offer {
-              @apply absolute top-4 pl-4 pr-6 py-[2px] bg-orange text-white opacity-75;
+              @apply absolute top-4 pl-4 pr-6 py-[2px] text-white opacity-75;
             }
           }
         }
@@ -41,11 +41,7 @@
           @apply flex justify-center gap-2 mt-2;
 
           > div {
-            @apply w-12 h-12 border-2 border-gray;
-
-            &.active {
-              @apply border-yellow;
-            }
+            @apply w-12 h-12 border-2;
 
             img {
               @apply w-full h-full object-cover;
@@ -64,19 +60,13 @@
 
         .btn-later,
         .btn-wishlist {
-          @apply text-gray ml-3;
+          @apply ml-3;
         }
       }
 
       &-description {
         .price {
           @apply justify-start text-left my-4;
-
-          &-discounted {
-            .price-base {
-              @apply text-gray;
-            }
-          }
         }
       }
 
@@ -97,13 +87,13 @@
               @apply hidden;
 
               &:checked + label {
-                @apply border-yellow border-2;
+                @apply border-2;
               }
 
               &:disabled + label {
-                @apply relative text-gray cursor-not-allowed overflow-hidden;
+                @apply relative cursor-not-allowed overflow-hidden;
                 @apply before:content-[''] before:absolute before:top-4 before:-left-4;
-                @apply before:w-16 before:h-[1px] before:bg-gray before:rotate-45;
+                @apply before:w-16 before:h-[1px] before:rotate-45;
               }
             }
 
@@ -111,7 +101,7 @@
               @apply flex;
 
               label {
-                @apply flex justify-center items-center w-9 h-9 mr-2 border border-gray cursor-pointer;
+                @apply flex justify-center items-center w-9 h-9 mr-2 border cursor-pointer;
               }
             }
           }
@@ -122,32 +112,20 @@
             }
 
             input {
-              @apply appearance-none w-7 h-7 mr-2 rounded-full border border-gray;
+              @apply appearance-none w-7 h-7 mr-2 rounded-full border;
 
               &.green {
                 @apply bg-[#6bf74d];
               }
 
-              &.blue {
-                @apply bg-blue;
-              }
-
-              &.red {
-                @apply bg-[#ff184d];
-              }
-
-              &.black {
-                @apply bg-black-darkest;
-              }
-
               &:checked {
-                @apply border-yellow outline outline-4 outline-yellow;
+                @apply outline outline-4;
               }
 
               &:disabled {
                 @apply relative opacity-50 cursor-not-allowed overflow-hidden;
                 @apply before:content-[''] before:absolute before:top-4 before:-left-4;
-                @apply before:w-16 before:h-[1px] before:bg-gray before:rotate-45;
+                @apply before:w-16 before:h-[1px] before:rotate-45;
               }
             }
           }
@@ -162,7 +140,7 @@
         @apply flex items-center text-sm;
 
         .quantity-alert {
-          @apply ml-3 text-pink;
+          @apply ml-3;
         }
       }
     }

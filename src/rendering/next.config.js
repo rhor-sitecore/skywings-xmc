@@ -7,6 +7,9 @@ const publicUrl = jssConfig.publicUrl;
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  experimental: {
+    esmExternals: 'loose'
+  },
   // Set assetPrefix to our public URL
   assetPrefix: publicUrl,
 

@@ -22,6 +22,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/PLAY/playwebsite/Data/CMP Data/Advertisements
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8600dd69-bf71-43f6-bc13-9b0e6883df6c"
 Languages:
 - Language: en
   Versions:

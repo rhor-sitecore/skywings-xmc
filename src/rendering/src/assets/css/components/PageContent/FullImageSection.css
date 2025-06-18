@@ -26,7 +26,7 @@
     .content-card {
       @include flex--center--column;
 
-      @apply text-center bg-white-light;
+      @apply text-center;
 
       padding: 3em;
       max-width: 700px;
@@ -37,7 +37,7 @@
       }
 
       h5 {
-        @apply text-blue uppercase;
+        @apply uppercase;
 
         letter-spacing: 1px;
         font-weight: 500;

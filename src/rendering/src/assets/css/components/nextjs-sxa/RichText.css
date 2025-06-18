@@ -69,10 +69,6 @@
     @apply list-decimal;
   }
 
-  a:not([class^='btn']) {
-    @apply text-blue;
-  }
-
   img {
     @apply !h-auto;
   }

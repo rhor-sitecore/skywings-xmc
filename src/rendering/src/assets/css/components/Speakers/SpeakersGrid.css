@@ -17,11 +17,7 @@
     }
 
     .speaker-image {
-      @apply w-full bg-element bg-no-repeat bg-left-bottom bg-contain bg-blue;
-
-      &.featured-speaker {
-        @apply bg-orange;
-      }
+      @apply w-full bg-no-repeat bg-left-bottom bg-contain;
     }
 
     .speaker-name {

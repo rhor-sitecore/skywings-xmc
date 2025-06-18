@@ -1,13 +1,13 @@
 .form {
   h2 {
-    @apply text-blue text-4xl uppercase;
+    @apply text-4xl uppercase;
   }
 
   .floating-label-wrap {
     @apply relative w-full;
 
     input {
-      @apply relative w-full rounded p-2 border border-gray-dark text-sm font-medium;
+      @apply relative w-full rounded p-2 border text-sm font-medium;
 
       z-index: 1500;
 
@@ -17,7 +17,7 @@
     }
 
     label {
-      @apply absolute left-0 select-none cursor-text text-gray-dark text-sm font-medium p-2 w-auto m-0 inline-block;
+      @apply absolute left-0 select-none cursor-text text-sm font-medium p-2 w-auto m-0 inline-block;
 
       top: 1px;
       z-index: 2000;
@@ -85,10 +85,6 @@
 
 .form.form--dark {
   @apply text-white;
-
-  h2 {
-    @apply text-yellow;
-  }
 
   .floating-label-wrap {
     input {

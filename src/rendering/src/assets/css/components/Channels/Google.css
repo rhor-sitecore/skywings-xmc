@@ -4,7 +4,7 @@
 }
 
 .google-header {
-  @apply flex items-start px-8 pt-4 border-b border-gray-light bg-white-light;
+  @apply flex items-start px-8 pt-4 border-b;
 
   .logo {
     @apply w-20 h-auto mr-8;
@@ -18,7 +18,7 @@
   }
 
   svg {
-    @apply w-5 h-5 fill-black-lightest;
+    @apply w-5 h-5;
   }
 
   .avatar {
@@ -32,7 +32,7 @@
       @apply flex gap-2 py-3;
 
       li {
-        @apply text-[14px] text-black-light px-3 py-2 border border-[#dadce0] rounded-full;
+        @apply text-[14px] px-3 py-2 border border-[#dadce0] rounded-full;
       }
     }
   }
@@ -74,28 +74,7 @@
   }
 
   div.website-icon {
-    @apply flex justify-center items-center font-bold text-orange-darkest bg-white;
-  }
-
-  &:nth-child(3),
-  &:nth-child(7) {
-    .website-icon {
-      @apply text-pink-darkest;
-    }
-  }
-
-  &:nth-child(4),
-  &:nth-child(8) {
-    .website-icon {
-      @apply text-blue-darkest;
-    }
-  }
-
-  &:nth-child(6),
-  &:nth-child(9) {
-    .website-icon {
-      @apply text-yellow-darkest;
-    }
+    @apply flex justify-center items-center font-bold bg-white;
   }
 
   .website-url {

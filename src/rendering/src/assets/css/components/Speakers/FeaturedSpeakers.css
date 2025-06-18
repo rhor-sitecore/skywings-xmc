@@ -10,7 +10,7 @@
       @apply max-w-[265px] rounded-none;
 
       .item-image {
-        @apply bg-element bg-no-repeat bg-left-bottom bg-contain bg-orange;
+        @apply bg-no-repeat bg-left-bottom bg-contain;
       }
 
       .item-details {

@@ -19,6 +19,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/PLAY/playwebsite/Data/HeroSectionCta
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c977dfb4-c41a-48db-a56b-179e82df8f36"
 Languages:
 - Language: en
   Versions:

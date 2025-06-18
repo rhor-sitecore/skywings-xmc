@@ -2,23 +2,11 @@
   @apply text-center py-20;
 
   &-blue {
-    @apply bg-blue text-white;
-  }
-
-  &-orange {
-    @apply bg-orange;
+    @apply text-white;
   }
 
   &-pink {
-    @apply bg-pink text-white;
-  }
-
-  &-yellow {
-    @apply bg-yellow;
-  }
-
-  &-gray {
-    @apply bg-gray-light;
+    @apply text-white;
   }
 
   ul {

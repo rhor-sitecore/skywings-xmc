@@ -3,16 +3,6 @@
 
   .summary-line {
     @apply flex justify-between px-3 text-sm;
-
-    &.has-discount {
-      @apply text-pink;
-    }
-  }
-
-  .shipping-line {
-    .line-amount {
-      @apply text-blue;
-    }
   }
 
   .total-line {

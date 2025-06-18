@@ -31,30 +31,12 @@
       }
     }
 
-    &.accent-blue {
-      .field-promoicon::before {
-        @apply bg-blue;
-      }
-    }
-
-    &.accent-orange {
-      .field-promoicon::before {
-        @apply bg-orange;
-      }
-    }
-
-    &.accent-pink {
-      .field-promoicon::before {
-        @apply bg-pink;
-      }
-    }
-
     .field-promotext {
       @apply text-3xl font-bold uppercase mb-4;
     }
 
     .field-promotext3 {
-      @apply uppercase text-blue-light font-bold;
+      @apply uppercase font-bold;
     }
 
     .field-promolink {
@@ -66,18 +48,13 @@
       @apply lg:-right-20;
 
       &::before {
-        @apply content-[''] absolute top-10 -bottom-10 -left-16 w-28 bg-yellow z-10;
+        @apply content-[''] absolute top-10 -bottom-10 -left-16 w-28 z-10;
       }
 
       img {
         @apply relative z-20;
         @apply lg:absolute lg:object-cover lg:h-full;
       }
-    }
-
-    div.promo-text {
-      @apply mt-14;
-      @apply lg:relative lg:top-24 lg:-left-4 lg:p-14 lg:mt-0 lg:bg-white-light lg:z-30;
     }
   }
 

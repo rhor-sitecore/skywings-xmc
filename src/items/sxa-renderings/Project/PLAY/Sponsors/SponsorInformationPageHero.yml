@@ -16,6 +16,9 @@ SharedFields:
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
   Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "db44e14e-77a7-49e8-bd2a-f39f9bef90f1"
 Languages:
 - Language: en
   Versions:

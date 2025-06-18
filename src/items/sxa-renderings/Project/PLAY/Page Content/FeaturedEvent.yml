@@ -19,6 +19,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/PLAY/playwebsite/home/sessions
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ad09411e-c1ca-4fd3-81ff-5f23ebd27c37"
 Languages:
 - Language: en
   Versions:

@@ -7,6 +7,9 @@ SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
   Value: "mx-8"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2751365c-5f95-441f-a19f-04aed2fa87b0"
 Languages:
 - Language: en
   Versions:

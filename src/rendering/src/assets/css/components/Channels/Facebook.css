@@ -4,7 +4,7 @@
 }
 
 .facebook-header {
-  @apply flex justify-between items-center bg-white-light px-4 shadow-md;
+  @apply flex justify-between items-center px-4 shadow-md;
 
   input {
     @apply bg-[#F0F2F5] h-8 px-3 pb-[3px] rounded-full w-full text-sm;
@@ -66,7 +66,7 @@
   }
 
   .post-box {
-    @apply bg-white-light rounded-md shadow-md p-3 my-4;
+    @apply rounded-md shadow-md p-3 my-4;
 
     .input-box {
       @apply flex gap-2;
@@ -156,7 +156,7 @@
       @apply flex items-center;
 
       img {
-        @apply relative w-[22px] h-[22px] border-2 border-white-light rounded-full z-20;
+        @apply relative w-[22px] h-[22px] border-2 rounded-full z-20;
 
         + img {
           @apply -ml-[4px] z-10;

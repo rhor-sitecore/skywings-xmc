@@ -7,6 +7,9 @@ SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
   Value: "sxa-exclusive-offer"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c08e2cc1-6ced-4f37-a7c2-5409b031e16f"
 Languages:
 - Language: en
   Versions:

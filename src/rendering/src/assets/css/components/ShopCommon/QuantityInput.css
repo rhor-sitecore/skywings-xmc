@@ -2,7 +2,7 @@
   @apply flex w-32;
 
   &-button {
-    @apply shrink-0 w-9 border-2 border-gray text-xl text-white bg-gray;
+    @apply shrink-0 w-9 border-2 text-xl text-white;
   }
 
   input {
@@ -18,6 +18,6 @@
 
   select,
   input {
-    @apply w-full border-2 border-gray italic;
+    @apply w-full border-2 italic;
   }
 }

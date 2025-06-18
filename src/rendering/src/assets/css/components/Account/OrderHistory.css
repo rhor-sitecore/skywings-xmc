@@ -17,7 +17,7 @@ div.shop-main-container .section.order-history {
       @apply p-1 text-sm;
 
       a {
-        @apply relative block p-3 bg-white-light transition-colors;
+        @apply relative block p-3 transition-colors;
       }
 
       p {
@@ -37,7 +37,7 @@ div.shop-main-container .section.order-history {
       }
 
       .order-view {
-        @apply absolute bottom-3 right-3 text-black-lightest text-2xl;
+        @apply absolute bottom-3 right-3 text-2xl;
       }
     }
   }

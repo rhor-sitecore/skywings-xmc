@@ -4,7 +4,7 @@
   @apply xl:grid-cols-3;
 
   .ticket-grid-block {
-    @apply bg-white-lighter px-3 text-center flex flex-col justify-start pb-8;
+    @apply px-3 text-center flex flex-col justify-start pb-8;
     @apply lg:px-10;
 
     .ticket-content {
@@ -32,7 +32,7 @@
         @apply text-6xl font-semibold;
 
         + .ticket-price {
-          @apply absolute -top-2 text-3xl text-black-light line-through;
+          @apply absolute -top-2 text-3xl line-through;
         }
       }
 
@@ -67,45 +67,6 @@
 
       a {
         @apply font-bold;
-      }
-    }
-
-    &-pink {
-      .slanted-spacer {
-        @apply bg-pink;
-      }
-
-      .ticket-name,
-      .ticket-sale-price,
-      .ticket-price,
-      ul li svg {
-        @apply text-pink;
-      }
-    }
-
-    &-orange {
-      .slanted-spacer {
-        @apply bg-orange;
-      }
-
-      .ticket-name,
-      .ticket-sale-price,
-      .ticket-price,
-      ul li svg {
-        @apply text-orange;
-      }
-    }
-
-    &-blue {
-      .slanted-spacer {
-        @apply bg-blue;
-      }
-
-      .ticket-name,
-      .ticket-sale-price,
-      .ticket-price,
-      ul li svg {
-        @apply text-blue;
       }
     }
   }

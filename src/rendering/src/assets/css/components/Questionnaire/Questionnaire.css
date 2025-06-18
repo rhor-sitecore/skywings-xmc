@@ -21,19 +21,6 @@
         &::after {
           @apply content-['✓'] absolute top-4 right-4 text-transparent transition-colors;
         }
-
-        &:hover {
-          @apply bg-black-light;
-        }
-
-        &.selected {
-          @apply relative border-yellow;
-
-          &::after {
-            @apply text-yellow;
-          }
-        }
-
         img {
           @apply w-32 h-24 object-contain;
           @apply lg:w-40 lg:h-32;

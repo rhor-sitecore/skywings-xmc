@@ -1,7 +1,7 @@
 .preview-search-content-container {
   .preview-search-content {
     .news-item {
-      @apply inline-flex justify-between bg-white-light;
+      @apply inline-flex justify-between;
     }
 
     .item-grid {
@@ -15,7 +15,7 @@
     }
 
     .news-date {
-      @apply text-xs text-gray-dark mt-2;
+      @apply text-xs mt-2;
     }
 
     .news-image {

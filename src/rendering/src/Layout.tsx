@@ -9,7 +9,6 @@ import config from 'temp/config';
 import Scripts from 'src/Scripts';
 // DEMO TEAM CUSTOMIZATION - CDP and Sitecore Send integration
 import { trackViewEvent } from './services/TrackingService';
-import HeaderCdpMessageBar from './components/HeaderCdpMessageBar';
 import { isEditingOrPreviewingPage } from './helpers/LayoutServiceHelper';
 // END CUSTOMIZATION
 
@@ -79,8 +78,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
         <main className={isExperienceEditorActiveCssClass}>
-          <HeaderCdpMessageBar />
-          {route && <Placeholder name="headless-main" rendering={route} />}
+          <div className="min-h-screen bg-background">
+            {route && <Placeholder name="headless-main" rendering={route} />}
+          </div>
         </main>
         <footer>{route && <Placeholder name="headless-footer" rendering={route} />}</footer>
       </div>

@@ -16,7 +16,7 @@
     }
 
     .preview-search-content {
-      @apply h-full max-h-[80vh] overflow-auto bg-gray-light;
+      @apply h-full max-h-[80vh] overflow-auto;
 
       .preview-search-content-popup {
         @apply flex;

@@ -4,7 +4,7 @@
   }
 
   .summary-content {
-    @apply bg-gray-light p-5 space-y-5 text-sm;
+    @apply p-5 space-y-5 text-sm;
   }
 
   .details {

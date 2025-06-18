@@ -2,22 +2,22 @@
   @apply text-sm;
 
   .facet {
-    @apply border-t border-gray;
+    @apply border-t;
 
     &:last-child {
-      @apply border-b border-gray;
+      @apply border-b;
     }
 
     &-title {
       @apply flex justify-between items-center py-1 cursor-pointer font-bold capitalize;
 
       svg {
-        @apply block text-black-light text-base transition-transform;
+        @apply block text-base transition-transform;
       }
     }
 
     &-values {
-      @apply hidden bg-white-light py-3 px-2;
+      @apply hidden py-3 px-2;
       @apply lg:bg-white;
 
       li {
@@ -29,11 +29,7 @@
       }
 
       input {
-        @apply appearance-none flex-shrink-0 w-3 h-3 bg-gray cursor-pointer;
-
-        &:checked {
-          @apply bg-checkbox-check bg-no-repeat bg-center bg-contain;
-        }
+        @apply appearance-none flex-shrink-0 w-3 h-3 cursor-pointer;
       }
 
       label {
@@ -75,13 +71,13 @@
 
     .facet-values {
       li {
-        @apply mb-2 px-2 bg-white-light;
+        @apply mb-2 px-2;
 
         label {
           @apply flex justify-between items-center cursor-pointer;
 
           svg {
-            @apply text-gray-dark text-lg flex-shrink-0 ml-1;
+            @apply text-lg flex-shrink-0 ml-1;
           }
 
           span {

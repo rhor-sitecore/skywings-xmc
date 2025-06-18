@@ -1,11 +1,10 @@
 .accordion {
   .accordion-heading {
-    @apply p-4 text-white uppercase font-bold bg-blue;
+    @apply p-4 text-white uppercase font-bold;
   }
 
   &.loading {
     .accordion-heading {
-      @apply bg-gray;
       @apply after:content-[''] after:block after:h-6;
     }
   }
@@ -14,7 +13,7 @@
     @apply p-4 text-sm bg-white space-y-4;
 
     .accordion-item {
-      @apply px-5 py-3 bg-white-light;
+      @apply px-5 py-3;
 
       .accordion-item-heading {
         @apply flex justify-between items-center appearance-none w-full font-medium;
@@ -41,7 +40,7 @@
       }
 
       &.disabled {
-        @apply bg-transparent text-gray;
+        @apply bg-transparent;
       }
     }
   }

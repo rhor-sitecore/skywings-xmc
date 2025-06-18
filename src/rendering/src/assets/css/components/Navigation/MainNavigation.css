@@ -39,7 +39,7 @@
     }
 
     .items-container {
-      @apply flex-grow bg-black-light py-5;
+      @apply flex-grow py-5;
       @apply lg:bg-transparent lg:py-0;
 
       > .container {
@@ -61,7 +61,6 @@
 
         .text-menu-item a {
           @apply text-base leading-loose text-white;
-          @apply hover:text-yellow;
           @apply lg:px-3;
         }
 

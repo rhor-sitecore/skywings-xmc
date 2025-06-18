@@ -38,7 +38,7 @@ body.shop-facet-panel-open {
     }
 
     .button-container {
-      @apply sticky bottom-0 left-0 right-0 bg-blue-lightest p-4;
+      @apply sticky bottom-0 left-0 right-0 p-4;
       @apply lg:hidden;
 
       button {
@@ -65,7 +65,7 @@ body.shop-facet-panel-open {
     }
 
     select {
-      @apply appearance-none bg-white py-1 pl-3 pr-8 bg-select-arrow bg-no-repeat;
+      @apply appearance-none bg-white py-1 pl-3 pr-8 bg-no-repeat;
 
       background-position: calc(100% - 0.5rem), center;
     }
@@ -77,17 +77,13 @@ body.shop-facet-panel-open {
     @apply lg:block;
   }
 
-  .items-num {
-    @apply text-black-lightest;
-  }
-
   .category-search {
     &-container {
       @apply relative mb-2;
     }
 
     &-input {
-      @apply w-full py-1 px-2 pr-6 text-sm border-2 border-black-lightest;
+      @apply w-full py-1 px-2 pr-6 text-sm border-2;
     }
 
     &-icon {

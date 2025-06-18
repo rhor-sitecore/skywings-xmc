@@ -10,7 +10,7 @@
       @apply lg:py-0 md:px-8;
 
       .cta-heading {
-        @apply text-blue-lighter text-5xl font-bold;
+        @apply text-5xl font-bold;
       }
 
       .cta-description {
@@ -19,7 +19,6 @@
     }
 
     .cta + .cta {
-      @apply border-gray;
       @apply border-t;
       @apply lg:border-t-0 lg:border-l;
     }

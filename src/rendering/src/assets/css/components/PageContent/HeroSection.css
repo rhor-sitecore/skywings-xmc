@@ -14,8 +14,7 @@
     }
 
     .container-content {
-      @apply w-full bg-black-light;
-      @apply md:w-45;
+      @apply w-full;
 
       background:
         linear-gradient(
@@ -56,8 +55,6 @@
         }
 
         .expo {
-          @apply text-orange;
-
           font-weight: 600;
           font-size: 1.5em;
         }
@@ -68,7 +65,7 @@
         }
 
         .subtitle {
-          @apply text-orange pt-2;
+          @apply pt-2;
           @apply md:py-2;
 
           font-size: 1em;

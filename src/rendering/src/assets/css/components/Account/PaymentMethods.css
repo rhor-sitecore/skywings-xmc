@@ -23,10 +23,10 @@ div.shop-main-container .section.payment-methods {
       @apply p-1 text-sm;
 
       .payment-methods-item {
-        @apply relative block h-full p-3 bg-white-light transition-colors;
+        @apply relative block h-full p-3 transition-colors;
 
         &-actions {
-          @apply space-x-3 text-xl text-black-lightest text-right;
+          @apply space-x-3 text-xl text-right;
           @apply sm:absolute sm:right-3 sm:bottom-3;
         }
 

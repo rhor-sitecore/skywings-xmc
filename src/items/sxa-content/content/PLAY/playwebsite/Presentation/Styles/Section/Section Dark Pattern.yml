@@ -10,6 +10,9 @@ SharedFields:
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
   Value: "{2F9D05FD-8E58-56CC-B586-41A3EC155CD7}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "43377d4c-9bd3-4db8-b493-c6799b380380"
 Languages:
 - Language: en
   Versions:

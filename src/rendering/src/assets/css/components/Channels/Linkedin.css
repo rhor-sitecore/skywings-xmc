@@ -14,11 +14,11 @@
 }
 
 .linkedin-box {
-  @apply bg-white-light border border-gray-light rounded-lg overflow-hidden my-2;
+  @apply border rounded-lg overflow-hidden my-2;
 }
 
 .linkedin-header {
-  @apply bg-white-light border-b border-white-dark;
+  @apply border-b;
 
   .linkedin-container {
     @apply flex items-center;
@@ -45,7 +45,7 @@
       @apply flex;
 
       li {
-        @apply flex flex-col gap-[3px] items-center w-16 shrink-0 px-1 pt-[7px] pb-[2px] text-black-lightest;
+        @apply flex flex-col gap-[3px] items-center w-16 shrink-0 px-1 pt-[7px] pb-[2px];
 
         &.active {
           @apply text-black border-b-2 border-black;
@@ -61,10 +61,6 @@
 
 .linkedin-main {
   @apply bg-[#F4F2EE] py-2;
-
-  hr {
-    @apply text-gray-light;
-  }
 
   .avatar {
     @apply w-11 h-11 rounded-full object-cover;
@@ -88,7 +84,7 @@
 
   .user-card {
     .avatar {
-      @apply w-14 h-14 border-2 border-white-light mx-auto -mt-7;
+      @apply w-14 h-14 border-2 mx-auto -mt-7;
     }
 
     .user-cover {
@@ -100,14 +96,14 @@
     }
 
     p {
-      @apply text-center text-[12px] text-black-lightest;
+      @apply text-center text-[12px];
     }
 
     ul {
-      @apply px-3 py-3 mt-3 border-t border-b border-gray-light;
+      @apply px-3 py-3 mt-3 border-t border-b;
 
       li {
-        @apply flex justify-between text-[12px] font-semibold text-black-lightest;
+        @apply flex justify-between text-[12px] font-semibold;
 
         + li {
           @apply mt-1;
@@ -122,7 +118,7 @@
     }
 
     button {
-      @apply text-[12px] font-semibold text-black-light px-3 py-2;
+      @apply text-[12px] font-semibold px-3 py-2;
 
       svg {
         @apply mr-2;
@@ -131,10 +127,10 @@
   }
 
   .activity-card {
-    @apply text-[12px] font-semibold px-3 text-black-lightest;
+    @apply text-[12px] font-semibold px-3;
 
     svg {
-      @apply text-black-light mr-2;
+      @apply mr-2;
     }
 
     hr {
@@ -173,11 +169,11 @@
       }
 
       p {
-        @apply text-[12px] text-black-lightest;
+        @apply text-[12px];
       }
 
       button {
-        @apply mt-1 text-black-lightest border border-black-lightest rounded-full px-3 py-1;
+        @apply mt-1 border rounded-full px-3 py-1;
 
         svg {
           @apply mr-1;
@@ -196,7 +192,7 @@
         @apply flex gap-3;
 
         input {
-          @apply border border-gray-dark font-semibold px-3 rounded-full w-full;
+          @apply border font-semibold px-3 rounded-full w-full;
         }
       }
 
@@ -204,7 +200,7 @@
         @apply flex justify-around mt-3;
 
         li {
-          @apply flex items-center gap-2 font-semibold text-black-lightest text-[14px];
+          @apply flex items-center gap-2 font-semibold text-[14px];
 
           svg {
             @apply w-[24px] h-[24px];
@@ -227,7 +223,7 @@
           }
 
           span {
-            @apply text-black-lightest text-[12px];
+            @apply text-[12px];
           }
         }
       }
@@ -247,7 +243,7 @@
           }
 
           span {
-            @apply text-[12px] text-black-lightest;
+            @apply text-[12px];
           }
         }
       }
@@ -265,7 +261,7 @@
       }
 
       .post-meta {
-        @apply flex justify-between text-[12px] text-black-lightest my-2;
+        @apply flex justify-between text-[12px] my-2;
 
         div {
           @apply flex gap-2;
@@ -280,7 +276,7 @@
         @apply flex mt-3;
 
         button {
-          @apply flex gap-1 justify-center items-center basis-1/4 text-black-lightest font-semibold;
+          @apply flex gap-1 justify-center items-center basis-1/4 font-semibold;
 
           svg {
             @apply w-[24px] h-[24px];

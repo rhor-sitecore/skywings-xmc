@@ -9,10 +9,10 @@
     @apply bg-white w-full flex flex-col justify-center px-4 gap-0.5;
 
     .item-info {
-      @apply flex text-gray;
+      @apply flex;
 
       .item-type {
-        @apply bg-white-light capitalize px-2 mr-3;
+        @apply capitalize px-2 mr-3;
       }
     }
 

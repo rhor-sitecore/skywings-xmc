@@ -85,6 +85,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "917fd3b8-f365-4125-9fd0-f703eae38c6e"
 Languages:
 - Language: en
   Versions:

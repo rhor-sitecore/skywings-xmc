@@ -1,6 +1,6 @@
 .careconnect {
   &-header {
-    @apply flex static justify-between px-14 bg-white-dark py-2;
+    @apply flex static justify-between px-14 py-2;
   }
 
   &-logo {
@@ -8,7 +8,7 @@
   }
 
   &-main {
-    @apply flex bg-white-dark min-h-screen;
+    @apply flex min-h-screen;
 
     h1 {
       @apply flex items-center text-4xl font-bold mb-4;
@@ -19,10 +19,6 @@
 
       button {
         @apply flex transition-colors;
-
-        &:hover {
-          @apply text-blue;
-        }
       }
     }
 
@@ -43,30 +39,25 @@
 
       li {
         button {
-          @apply grid grid-cols-3 items-center w-full p-4 border-4 border-white-light bg-white-light rounded-md transition-colors;
-          @apply hover:border-blue-lightest;
-
-          &.active {
-            @apply border-blue-light;
-          }
+          @apply grid grid-cols-3 items-center w-full p-4 border-4 rounded-md transition-colors;
 
           .customer-name {
             @apply text-left font-bold text-2xl;
           }
 
           .customer-date {
-            @apply text-center text-gray;
+            @apply text-center;
           }
 
           .customer-status {
-            @apply text-right text-blue-light;
+            @apply text-right;
           }
         }
       }
     }
 
     .customer-info-sidebar {
-      @apply w-2/5 px-14 py-6 bg-white-light;
+      @apply w-2/5 px-14 py-6;
 
       svg {
         @apply mr-3;
@@ -77,15 +68,15 @@
       }
 
       .customer-status {
-        @apply justify-self-start text-blue-light border-4 border-blue-light rounded-md px-4 py-1 font-bold;
+        @apply justify-self-start border-4 rounded-md px-4 py-1 font-bold;
       }
     }
 
     .next-best-offer {
-      @apply flex flex-col gap-4 text-white bg-blue-light border-4 border-blue-lightest rounded-md p-4 mt-6;
+      @apply flex flex-col gap-4 text-white border-4 rounded-md p-4 mt-6;
 
       button {
-        @apply bg-white text-blue-light font-bold px-4 py-2 rounded-md ml-auto transition-opacity;
+        @apply bg-white font-bold px-4 py-2 rounded-md ml-auto transition-opacity;
         @apply hover:opacity-90;
 
         &:disabled {
@@ -101,7 +92,7 @@
     }
 
     .customer-history {
-      @apply border-4 border-white-dark rounded-md p-4 mt-6;
+      @apply border-4 rounded-md p-4 mt-6;
 
       ul {
         @apply flex flex-col gap-6 mt-3;
@@ -110,22 +101,11 @@
           @apply relative pl-7;
 
           &::before {
-            @apply content-[""] absolute top-[calc(50%-8px)] left-0 w-[15px] h-[15px] rounded-full bg-black-lightest z-10;
+            @apply content-[""] absolute top-[calc(50%-8px)] left-0 w-[15px] h-[15px] rounded-full z-10;
           }
 
           &::after {
-            @apply content-[""] absolute top-[calc(50%-8px)] left-[6px] w-[3px] h-[calc(100%+1.5rem)] bg-gray;
-          }
-
-          &:first-child {
-            p,
-            span {
-              @apply text-blue-light;
-            }
-
-            &::before {
-              @apply bg-blue-light;
-            }
+            @apply content-[""] absolute top-[calc(50%-8px)] left-[6px] w-[3px] h-[calc(100%+1.5rem)];
           }
 
           &:last-child {
@@ -135,11 +115,7 @@
           }
 
           p {
-            @apply font-bold text-black-lightest;
-          }
-
-          span {
-            @apply text-gray;
+            @apply font-bold;
           }
         }
       }

@@ -6,10 +6,6 @@
     @apply sm:px-0;
   }
 
-  .order-date {
-    @apply text-black-lightest;
-  }
-
   .order-status {
     @apply relative -right-5 float-right clear-left text-white text-xs px-3 py-0.5;
     @apply sm:static;
@@ -23,7 +19,7 @@
       @apply bg-white h-[max-content];
 
       &-header {
-        @apply px-2 py-1 text-white font-bold bg-blue;
+        @apply px-2 py-1 text-white font-bold;
       }
 
       &-body {
@@ -39,8 +35,6 @@
       }
 
       &.line-items-panel {
-        @apply bg-transparent;
-
         .panel-body {
           @apply p-0;
         }

@@ -1,8 +1,8 @@
 .ticket-payment-confirmed {
-  @apply text-center space-y-14 border border-gray-dark p-8 pb-12;
+  @apply text-center space-y-14 border p-8 pb-12;
 
   h2 {
-    @apply text-blue text-4xl text-left;
+    @apply text-4xl text-left;
   }
 
   p {

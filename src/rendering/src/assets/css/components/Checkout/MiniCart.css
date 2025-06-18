@@ -17,7 +17,7 @@
   }
 
   &-subtotal {
-    @apply sticky bottom-0 flex justify-between py-1 px-2 mb-4 font-bold bg-black-light;
+    @apply sticky bottom-0 flex justify-between py-1 px-2 mb-4 font-bold;
   }
 
   &-list {
@@ -52,7 +52,7 @@
     }
 
     .item-remove {
-      @apply absolute top-0 right-0 text-base font-bold text-black-lightest z-10;
+      @apply absolute top-0 right-0 text-base font-bold z-10;
 
       &[disabled] {
         @apply opacity-50;

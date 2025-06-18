@@ -35,7 +35,7 @@
   }
 
   .user-comment {
-    @apply w-full border-2 border-black-lightest px-2 py-1 mt-1 italic text-sm text-black;
+    @apply w-full border-2 px-2 py-1 mt-1 italic text-sm text-black;
     @apply placeholder:text-black;
 
     &:focus,
@@ -46,16 +46,6 @@
     &-label {
       @apply text-sm;
     }
-  }
-
-  .quantity-alert {
-    @apply text-pink;
-  }
-
-  .btn-remove,
-  .btn-later,
-  .btn-wishlist {
-    @apply text-black-lightest;
   }
 
   &-footer {

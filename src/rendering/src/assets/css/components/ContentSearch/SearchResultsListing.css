@@ -15,7 +15,7 @@ body.search-facet-panel-open {
   @apply flex gap-4;
 
   select {
-    @apply appearance-none bg-white py-1 pl-3 pr-8 bg-select-arrow bg-no-repeat;
+    @apply appearance-none bg-white py-1 pl-3 pr-8 bg-no-repeat;
 
     background-position: calc(100% - 0.5rem), center;
   }
@@ -31,7 +31,7 @@ body.search-facet-panel-open {
     }
 
     .button-container {
-      @apply sticky bottom-0 left-0 right-0 bg-blue-lightest p-4;
+      @apply sticky bottom-0 left-0 right-0 p-4;
       @apply lg:hidden;
 
       button {
@@ -50,7 +50,6 @@ body.search-facet-panel-open {
 
     .search-results-listing-header {
       @apply flex flex-col-reverse gap-2 text-sm mb-6;
-      @apply xs:flex-row xs:justify-between xs:items-center;
 
       .search-results-listing-sort,
       .search-results-listing-filter-toggle {
@@ -64,11 +63,7 @@ body.search-facet-panel-open {
         @apply lg:ml-auto;
 
         button {
-          @apply px-1 bg-white-dark;
-
-          &.active {
-            @apply bg-yellow;
-          }
+          @apply px-1;
         }
       }
 

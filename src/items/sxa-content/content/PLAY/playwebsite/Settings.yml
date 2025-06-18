@@ -68,6 +68,9 @@ SharedFields:
 - ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
   Hint: LayoutPath
   Value: "{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "67f1ea95-985a-453c-b8fa-378120175063"
 - ID: "e3259313-387a-41f0-b113-962f14b1aa2b"
   Hint: LayoutServiceConfiguration
   Value: "sxa-jss"

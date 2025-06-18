@@ -13,8 +13,7 @@
     @apply md:px-14;
 
     .triangle-area {
-      @apply relative shadow-xl w-full bg-black-light;
-      @apply md:max-w-30;
+      @apply relative shadow-xl w-full;
 
       &::before,
       &::after {
@@ -44,7 +43,7 @@
         }
 
         .section-title {
-          @apply text-2xl text-blue-light font-semibold;
+          @apply text-2xl font-semibold;
         }
 
         .event-title {
@@ -56,7 +55,7 @@
         }
 
         .event-subtext {
-          @apply text-gray text-base;
+          @apply text-base;
         }
       }
 
@@ -73,16 +72,6 @@
         &::after {
           border-right-color: #ff8d00;
           border-top-color: #ff8d00;
-        }
-
-        .text-area {
-          .section-title {
-            @apply text-orange;
-          }
-
-          .event-subtitle {
-            @apply text-orange;
-          }
         }
       }
     }

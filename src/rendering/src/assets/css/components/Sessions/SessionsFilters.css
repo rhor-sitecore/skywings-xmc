@@ -60,10 +60,6 @@
               @apply px-0;
             }
 
-            &.active {
-              @apply bg-blue-light text-white-light;
-            }
-
             &.previous-page,
             &.next-page {
               span {
@@ -82,10 +78,6 @@
             &.next-page {
               @apply rounded-r-md;
             }
-          }
-
-          a.pager-item {
-            @apply hover:bg-gray-light;
           }
 
           span.pager-item {

@@ -144,6 +144,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: /sitecore/content/PLAY/playwebsite/Data/Questionnaire
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "01eba403-e0d8-4572-aa54-271c9d822a72"
 Languages:
 - Language: en
   Versions:

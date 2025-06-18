@@ -23,11 +23,6 @@
 
         .shop-navigation-menu-item {
           @apply flex-shrink-0 text-base text-white align-middle;
-          @apply hover:text-yellow;
-
-          &.active {
-            @apply text-yellow;
-          }
 
           &:not(.locale-picker) {
             @apply text-[1.75rem];

@@ -4,7 +4,7 @@
   @apply lg:grid-cols-3;
 
   .news-tweet {
-    @apply col-span-1 bg-white-dark;
+    @apply col-span-1;
     @apply sm:block;
     @apply md:hidden;
     @apply lg:block;
@@ -35,10 +35,6 @@
       &-body {
         @apply mt-5;
       }
-
-      &-comments {
-        @apply text-gray-dark;
-      }
     }
   }
 
@@ -51,16 +47,6 @@
 
       .item-image {
         @apply h-52 object-cover overflow-hidden;
-      }
-
-      &-item {
-        @apply w-full shadow content-center align-middle text-white overflow-hidden items-center justify-center text-left box-border no-underline cursor-pointer leading-normal font-semibold text-xl;
-
-        a:hover,
-        a:focus,
-        a:active {
-          color: inherit;
-        }
       }
     }
   }

@@ -13,16 +13,16 @@
 .btn-main,
 .btn--main {
   @apply btn-base;
-  @apply bg-yellow text-black rounded-md;
-  @apply hover:bg-yellow-dark hover:text-white;
-  @apply disabled:bg-yellow-dark disabled:cursor-not-allowed;
+  @apply text-black rounded-md;
+  @apply hover:text-white;
+  @apply disabled:cursor-not-allowed;
 }
 
 .btn-square {
   @apply btn-base;
-  @apply bg-white-light text-blue rounded-none px-24 text-xl;
-  @apply hover:bg-white hover:text-blue;
-  @apply disabled:bg-white disabled:text-gray-dark disabled:cursor-not-allowed;
+  @apply rounded-none px-24 text-xl;
+  @apply hover:bg-white;
+  @apply disabled:bg-white disabled:cursor-not-allowed;
 }
 
 .btn-secondary {

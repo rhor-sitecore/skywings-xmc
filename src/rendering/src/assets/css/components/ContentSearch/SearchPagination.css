@@ -10,7 +10,7 @@
     @apply hover:font-bold;
 
     &[data-current='true'] {
-      @apply text-gray-dark pointer-events-none;
+      @apply pointer-events-none;
     }
   }
 

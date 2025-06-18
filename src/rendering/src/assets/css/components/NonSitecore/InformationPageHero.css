@@ -1,5 +1,5 @@
 .information-page-hero {
-  @apply m-0 bg-white-light relative w-full;
+  @apply m-0 relative w-full;
   @apply md:h-60;
 
   @screen md {
@@ -17,7 +17,7 @@
     @apply lg:container lg:mx-auto lg:pr-4;
 
     .image-container {
-      @apply flex items-center max-h-60 bg-white-light;
+      @apply flex items-center max-h-60;
       @apply md:h-full;
 
       .sc-image-wrapper {
@@ -33,14 +33,13 @@
     }
 
     .gradient-container {
-      @apply hidden h-full flex-grow bg-gradient-to-l from-black-lightest to-white-light;
+      @apply hidden h-full flex-grow bg-gradient-to-l;
       @apply md:block;
     }
 
     .content-container {
-      @apply w-full bg-black-light self-stretch;
+      @apply w-full self-stretch;
       @apply sm:w-full;
-      @apply md:w-45;
 
       background:
         linear-gradient(
@@ -81,14 +80,10 @@
           @apply text-xl font-bold leading-7 text-white;
           @apply md:text-lg md:leading-6;
           @apply 2xl:text-2xl 2xl:leading-8;
-
-          .information-type {
-            @apply text-blue;
-          }
         }
 
         .name {
-          @apply text-2xl uppercase font-bold leading-7 text-blue;
+          @apply text-2xl uppercase font-bold leading-7;
           @apply md:text-xl md:leading-6;
           @apply 2xl:text-3xl 2xl:leading-8;
         }
@@ -121,14 +116,6 @@
           border-color: transparent #ff8d00 transparent transparent;
         }
       }
-
-      .name {
-        @apply text-orange;
-      }
-
-      .title .information-type {
-        @apply text-orange;
-      }
     }
   }
 
@@ -139,14 +126,6 @@
           border-color: transparent #3e93ff transparent transparent;
         }
       }
-
-      .name {
-        @apply text-blue-light;
-      }
-
-      .title .information-type {
-        @apply text-blue-light;
-      }
     }
   }
 
@@ -156,14 +135,6 @@
         &::after {
           border-color: transparent #ff1886 transparent transparent;
         }
-      }
-
-      .name {
-        @apply text-pink;
-      }
-
-      .title .information-type {
-        @apply text-pink;
       }
     }
   }

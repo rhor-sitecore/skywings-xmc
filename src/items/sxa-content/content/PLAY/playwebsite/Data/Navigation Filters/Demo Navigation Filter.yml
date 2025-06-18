@@ -4,6 +4,9 @@ Parent: "8e7190fc-847c-48c5-9f10-4fa4efea659f"
 Template: "966b041f-d956-4f71-a40a-68869a7ba6b9"
 Path: /sitecore/content/PLAY/playwebsite/Data/Navigation Filters/Demo Navigation Filter
 SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bc33d85f-989d-4036-81fe-2445365df216"
 - ID: "ee62cfbf-5b46-4f64-8334-207b9bd3ff96"
   Hint: Key
   Value: Demo Navigation Filter
