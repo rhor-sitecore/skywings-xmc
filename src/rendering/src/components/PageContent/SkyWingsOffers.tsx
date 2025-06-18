@@ -1,10 +1,8 @@
 import { ComponentProps } from 'lib/component-props';
 import {
   Text,
-  RichText,
   Field,
   LinkField,
-  Image,
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Card, CardContent, CardHeader, CardTitle } from "@/src/components/components/ui/card"
