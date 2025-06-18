@@ -1,0 +1,70 @@
+﻿---
+ID: "94d5bb40-f1c8-41b3-b8f6-52a64dc92511"
+Parent: "99f44341-16f0-4ca0-bf61-cf5c9216c1f8"
+Template: "b76f62bb-f158-4173-808b-6b6ce057c70d"
+Path: /sitecore/content/PLAY/playwebsite/Data/Offers/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "000fb1b7-5d35-44bf-a21a-e69505bdf744"
+      Hint: LeftOfferValid
+      Value: Valid until Aug 31
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02ca0fac-fff5-4a24-a55b-fbe9d94ff364"
+      Hint: MiddleOfferText
+      Value: Special rates for domestic weekend trips
+    - ID: "19435351-42ca-458d-8360-047cd2c03130"
+      Hint: LeftOfferLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" />
+    - ID: "464b0d3d-c952-4b5b-9b13-264bdcd01413"
+      Hint: LeftOfferBadge
+      Value: 40% Off
+    - ID: "4a2c3b56-1dbd-48a3-b167-3e08e302c9dd"
+      Hint: Subtitle
+      Value: "Don't miss out on these limited-time deals"
+    - ID: "5bd3895b-8373-4959-beb0-324cd674faa7"
+      Hint: RightOfferBadge
+      Value: FREE
+    - ID: "653ecb20-cbb1-4fe0-bd83-62d99d7bdd86"
+      Hint: RightOfferTitle
+      Value: Business Class Upgrade
+    - ID: "668580d6-d27e-47b5-a180-0d803a813f47"
+      Hint: Title
+      Value: Special Offers
+    - ID: "8702ea60-6981-4999-913f-ef7a6659a1e7"
+      Hint: LeftOfferText
+      Value: Save up to 40% on international flights
+    - ID: "8729ef5c-7111-465a-96a0-53a8dca6cf90"
+      Hint: LeftOfferTitle
+      Value: Summer Sale
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3f94dc1-32b3-49ad-8547-eec1186db7cb"
+    - ID: "9e329e83-d883-4261-a25d-0b9c0f26e863"
+      Hint: RightOfferLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A7BDFBDA-D5CC-5388-A039-F262BC768721}" />
+    - ID: "a9d7973e-12dd-4d4b-b6ea-e0641c8996db"
+      Hint: MiddleOfferLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{4321EB86-6432-5004-B61C-683F6B2EFD35}" />
+    - ID: "bc71a8ba-faac-4dab-aed7-509deff68d4a"
+      Hint: MiddleOfferBadge
+      Value: 25% Off
+    - ID: "c328fcce-ba34-49ae-95c8-fcc592d92fde"
+      Hint: RightOfferValid
+      Value: Limited time
+    - ID: "dfab86e4-8424-4f91-9d77-bba614d677b2"
+      Hint: MiddleOfferTitle
+      Value: Weekend Getaway
+    - ID: "e8fee54c-1c55-470d-8ba2-15af9bbd8021"
+      Hint: MiddleOfferValid
+      Value: Book by Friday
+    - ID: "f95d707d-8872-420d-afe9-d41b5c46fce4"
+      Hint: RightOfferText
+      Value: Complimentary upgrade with any booking

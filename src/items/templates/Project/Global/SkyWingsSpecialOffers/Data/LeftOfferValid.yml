@@ -1,0 +1,23 @@
+﻿---
+ID: "000fb1b7-5d35-44bf-a21a-e69505bdf744"
+Parent: "715dbed0-247a-419a-bb63-20b1f2a2ab0c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/SkyWingsSpecialOffers/Data/LeftOfferValid
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d4ffe875-7708-4862-ae42-f4c2fe1d1fa7"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c08500b6-02a7-47f1-85d0-dfe9d405a122"

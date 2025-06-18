@@ -1,0 +1,13 @@
+﻿---
+ID: "715dbed0-247a-419a-bb63-20b1f2a2ab0c"
+Parent: "b76f62bb-f158-4173-808b-6b6ce057c70d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Global/SkyWingsSpecialOffers/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99ec1cb6-f67e-40e0-a312-95996af8692c"

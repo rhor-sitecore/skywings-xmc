@@ -215,9 +215,16 @@ Languages:
             </r>
             <r
               uid="{342E20AB-0CF3-44FF-97EC-3D5353771E20}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{F9156FD3-6D12-4E0B-9B1F-0D4AC1A772C7}']"
               s:ds="{4F3084C1-B927-43DD-BFCA-8F90C63B97E9}"
               s:id="{EC0AE1F5-210B-49C8-95AF-9AC8F3B82C4A}"
+              s:par="FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="/headless-main/sxa-main/container-1" />
+            <r
+              uid="{800503A8-688D-4C9B-B57E-E2F96C16EED9}"
+              p:after="*[1=2]"
+              s:ds="{94D5BB40-F1C8-41B3-B8F6-52A64DC92511}"
+              s:id="{FA462058-C9D0-4483-8BDA-D2BD338B552D}"
               s:par="FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="/headless-main/sxa-main/container-1" />
           </d>
@@ -233,7 +240,7 @@ Languages:
       Value: home
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "603a5592-6eee-4aec-b54d-cafe52305ad9"
+      Value: "473584bc-e3ca-46ff-9acb-7456e32ddf15"
 - Language: "fr-CA"
   Versions:
   - Version: 1

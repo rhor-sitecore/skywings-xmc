@@ -1,0 +1,23 @@
+﻿---
+ID: "9e329e83-d883-4261-a25d-0b9c0f26e863"
+Parent: "715dbed0-247a-419a-bb63-20b1f2a2ab0c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/SkyWingsSpecialOffers/Data/RightOfferLink
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "76e3b3c2-320e-4b44-8d75-4a0309ab7fd6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ac6775a-d03d-47c8-aa89-ffb4bb1a3d3d"

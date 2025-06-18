@@ -43,7 +43,7 @@ const SkyWingsFleet = ({ fields, params }: SkyWingsFleetProps): JSX.Element => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             {/* Aircraft Image */}
             <div className="relative">
-              <Image field={fields.Image} alt={fields.Title} width={600} height={400} loading="lazy" className="w-full h-80 object-cover rounded-lg shadow-lg" />
+              <Image field={fields.Image} alt={fields.Title.value} width={600} height={400} loading="lazy" className="w-full h-80 object-cover rounded-lg shadow-lg" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"></div>
               <div className="absolute bottom-6 left-6 text-white">
                 <h3 className="text-2xl font-bold mb-2">Modern Fleet</h3>

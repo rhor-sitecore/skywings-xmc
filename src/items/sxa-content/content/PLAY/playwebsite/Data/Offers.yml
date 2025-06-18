@@ -1,0 +1,20 @@
+﻿---
+ID: "99f44341-16f0-4ca0-bf61-cf5c9216c1f8"
+Parent: "44864379-85fa-46df-a102-35a8bc2391b5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/PLAY/playwebsite/Data/Offers
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{B76F62BB-F158-4173-808B-6B6CE057C70D}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "71301bf8-ad24-4d58-ad24-5373955dd09f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc4d92e0-1819-4d1a-ab15-2c108e5866b8"
