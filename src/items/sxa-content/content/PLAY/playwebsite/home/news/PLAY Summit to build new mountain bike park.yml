@@ -16,12 +16,18 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c7614e5b-0891-4a1c-b5f9-4dac316b266e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "PLAY! Summit to build new mountain bike park"
+    Value: Tokyo After Dark
   Versions:
   - Version: 1
     Fields:
+    - ID: "0e38a1e0-dca1-4c0a-845d-3ff8b31749db"
+      Hint: Author
+      Value: Yuki Tanaka
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
@@ -30,19 +36,25 @@ Languages:
       Value: "{EB7D2E35-46BD-4EA3-A142-6B524DF4ED97}|{6AB3A378-547F-4B38-8BE4-7538313020B2}|{D7E74E60-9708-48B2-9D37-C34D165BEC43}"
     - ID: "5452a1d2-a7e3-421c-a6ee-dc69e58bf206"
       Hint: Title
-      Value: "PLAY! Summit to build new mountain biking park"
+      Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0944272d-fbf5-457f-a050-2af877c22eb0"
+      Value: "538c239c-9a82-4b93-b0e7-3e0444816290"
+    - ID: "92d50f01-4c2a-4f91-a4e1-3808188c5304"
+      Hint: ReadTime
+      Value: 5 min read
     - ID: "c60646d2-b021-4158-be5f-64943e445b1a"
       Hint: PublishDate
-      Value: 20211110T050000Z
+      Value: 20250420T040000Z
+    - ID: "cf65ab90-7999-4bbd-bdf2-a23281546b9f"
+      Hint: Category
+      Value: Food & Culture
     - ID: "ec2ff3e7-0a21-4808-8cf8-c13ccd6fffc8"
       Hint: Excerpt
-      Value: "Around 50 acres of undeveloped land connecting Des Moines and Pleasant Hill will be turned into a new mountain bike park, according to PLAY! Summit director Rich Ronald."
+      Value: <div><span>Explore Tokyo's vibrant night food scene, from street vendors to hidden izakayas.</span></div>
     - ID: "ed69eacf-5eb2-5050-9d5b-997812318dde"
       Hint: pageTitle
-      Value: "PLAY! Summit to build new mountain bike park"
+      Value: "Tokyo After Dark: A Food Lover's Guide to Night Markets"
     - ID: "f3204d80-07b0-4680-8939-15c2c2f82dcb"
       Hint: Image
       Value: |

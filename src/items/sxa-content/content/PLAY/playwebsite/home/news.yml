@@ -45,9 +45,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "57c863f9-993f-495f-8684-fa0a36ada8cb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: News
+    Value: Travel Blogs
   Versions:
   - Version: 1
     Fields:
@@ -65,4 +68,4 @@ Languages:
       Value: news
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9ea73623-ef57-43ad-a781-2f057e4b304a"
+      Value: "3cc9ff2d-69c9-4e40-97ef-6f6f7f7b09fe"

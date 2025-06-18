@@ -7,6 +7,9 @@ export type News = {
     Excerpt: Field<string>;
     PublishDate: Field<string>;
     Image: ImageField;
+    Author: Field<string>;
+    ReadTime: Field<string>;
+    Category: Field<string>;
   };
   url: string;
 };

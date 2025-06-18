@@ -16,12 +16,18 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "1223e5ac-ec77-46a7-9e94-ee3e1e9bc413"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Striva to premiere new fitness app at PLAY! Summit"
+    Value: Paris Beyond the Eiffel Tower
   Versions:
   - Version: 1
     Fields:
+    - ID: "0e38a1e0-dca1-4c0a-845d-3ff8b31749db"
+      Hint: Author
+      Value: Pierre Dubois
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
@@ -30,19 +36,25 @@ Languages:
       Value: "{4D758CED-1AD4-46C7-8E72-B42BE54A08E8}|{A69C357B-F4F9-4D4B-8262-44B0E60F051F}"
     - ID: "5452a1d2-a7e3-421c-a6ee-dc69e58bf206"
       Hint: Title
-      Value: "Striva to premiere new fitness app at PLAY! Summit"
+      Value: "Paris Beyond the Eiffel Tower: Local Secrets Revealed"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "35d87ce8-3cfa-4569-bd6a-e0ad51318af0"
+      Value: "44814af2-4d61-4552-924f-135a2e4ced55"
+    - ID: "92d50f01-4c2a-4f91-a4e1-3808188c5304"
+      Hint: ReadTime
+      Value: 6 min read
     - ID: "c60646d2-b021-4158-be5f-64943e445b1a"
       Hint: PublishDate
-      Value: 20210807T182227Z
+      Value: 20250609T040000Z
+    - ID: "cf65ab90-7999-4bbd-bdf2-a23281546b9f"
+      Hint: Category
+      Value: Destinations
     - ID: "ec2ff3e7-0a21-4808-8cf8-c13ccd6fffc8"
       Hint: Excerpt
-      Value: "Leading fitness brand, Striva, is set to premiere its innovative new fitness app at this year's PLAY! Summit Conference. The unveiling is highly anticipated by both sports professionals and fitness enthusiasts who are eager to experience the latest advancements in fitness technology."
+      Value: <div><span>Discover the authentic Paris that locals love, from hidden caf&eacute;s to secret gardens.</span></div>
     - ID: "ed69eacf-5eb2-5050-9d5b-997812318dde"
       Hint: pageTitle
-      Value: "Striva to premiere new fitness app at PLAY! Summit"
+      Value: "Paris Beyond the Eiffel Tower: Local Secrets Revealed"
     - ID: "f3204d80-07b0-4680-8939-15c2c2f82dcb"
       Hint: Image
       Value: |
