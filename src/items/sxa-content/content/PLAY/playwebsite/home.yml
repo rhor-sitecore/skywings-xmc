@@ -186,6 +186,16 @@ Languages:
               uid="{74A3507D-B718-58C6-8C54-5DFA30D2A4E8}">
               <p:d />
             </r>
+            <r
+              uid="{368C89F1-3640-58A1-BDE0-A1C0E8426D3E}"
+              s:id="{66BD887F-8197-466C-8AC7-B3AD5F64E8DC}" />
+            <r
+              uid="{F9156FD3-6D12-4E0B-9B1F-0D4AC1A772C7}"
+              p:after="r[@uid='{368C89F1-3640-58A1-BDE0-A1C0E8426D3E}']"
+              s:ph="/headless-main/sxa-main/container-1" />
+            <r
+              uid="{9C37536D-E2AA-5BF2-8103-FA15D43F5121}"
+              p:after="*[1=2]" />
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -199,7 +209,7 @@ Languages:
       Value: home
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62e945d5-b27f-4908-8b8b-62de4e82f350"
+      Value: "13d9b75c-a524-4f67-b518-c9348d996f5a"
 - Language: "fr-CA"
   Versions:
   - Version: 1
