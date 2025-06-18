@@ -190,12 +190,36 @@ Languages:
               uid="{368C89F1-3640-58A1-BDE0-A1C0E8426D3E}"
               s:id="{66BD887F-8197-466C-8AC7-B3AD5F64E8DC}" />
             <r
+              uid="{45FCA8EC-2A99-531D-B270-0389AB473563}">
+              <p:d />
+            </r>
+            <r
+              uid="{004EEEA1-32B0-4582-BD0C-FA7EFFB14182}">
+              <p:d />
+            </r>
+            <r
+              uid="{9FEB8407-087F-50FC-BCDD-4741F69796CC}">
+              <p:d />
+            </r>
+            <r
+              uid="{47F9A467-6F47-5D35-9F6F-70D4FA338EC6}">
+              <p:d />
+            </r>
+            <r
               uid="{F9156FD3-6D12-4E0B-9B1F-0D4AC1A772C7}"
-              p:after="r[@uid='{368C89F1-3640-58A1-BDE0-A1C0E8426D3E}']"
+              s:id="{A5CEDA42-33E7-433C-96EE-3BCB10393A1F}"
               s:ph="/headless-main/sxa-main/container-1" />
             <r
-              uid="{9C37536D-E2AA-5BF2-8103-FA15D43F5121}"
-              p:after="*[1=2]" />
+              uid="{9C37536D-E2AA-5BF2-8103-FA15D43F5121}">
+              <p:d />
+            </r>
+            <r
+              uid="{342E20AB-0CF3-44FF-97EC-3D5353771E20}"
+              p:after="*[1=2]"
+              s:ds="{4F3084C1-B927-43DD-BFCA-8F90C63B97E9}"
+              s:id="{EC0AE1F5-210B-49C8-95AF-9AC8F3B82C4A}"
+              s:par="FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="/headless-main/sxa-main/container-1" />
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -209,7 +233,7 @@ Languages:
       Value: home
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "13d9b75c-a524-4f67-b518-c9348d996f5a"
+      Value: "603a5592-6eee-4aec-b54d-cafe52305ad9"
 - Language: "fr-CA"
   Versions:
   - Version: 1

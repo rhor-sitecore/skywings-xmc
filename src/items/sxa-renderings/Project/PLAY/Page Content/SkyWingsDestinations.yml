@@ -2,11 +2,11 @@
 ID: "66bd887f-8197-466c-8ac7-b3ad5f64e8dc"
 Parent: "3006ec5b-0438-414b-860e-e6754658ea12"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/PLAY/Page Content/SkyWingsServices
+Path: /sitecore/layout/Renderings/Project/PLAY/Page Content/SkyWingsDestinations
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SkyWingsServices
+  Value: SkyWingsDestinations
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "edgeicons/32x32/section-3-column.png"
@@ -21,7 +21,7 @@ SharedFields:
   Value: /sitecore/content/PLAY/playwebsite/Data/ThreeColumnsSection
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "78afcc6b-868c-46ef-b7c1-48e472f96813"
+  Value: "0793ebc1-e82a-4339-8342-861f4d9c35e2"
 Languages:
 - Language: en
   Versions:
@@ -29,4 +29,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a50753e6-9da0-44fc-a17f-acb68ef1036d"
+      Value: "dce6a249-d06c-4274-a896-054e97b9681b"

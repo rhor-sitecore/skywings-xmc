@@ -1,0 +1,13 @@
+﻿---
+ID: "4f27deea-5977-4ac9-8e89-e3e0a9130858"
+Parent: "c90b0347-d613-4f8e-a0d2-c288f42d7d8c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Global/Fleet/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f42f5c4-b1bb-4bf7-a7d8-1df53c610395"

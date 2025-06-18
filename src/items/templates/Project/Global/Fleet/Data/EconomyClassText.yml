@@ -1,0 +1,23 @@
+﻿---
+ID: "5b37bac5-f74e-40e0-bb90-7ca5f0b189b2"
+Parent: "4f27deea-5977-4ac9-8e89-e3e0a9130858"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/Fleet/Data/EconomyClassText
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "730547b8-6fa1-4afc-bd61-0a8517bd5f68"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96f1a5aa-1d2a-47e2-8b47-44d24045a86c"

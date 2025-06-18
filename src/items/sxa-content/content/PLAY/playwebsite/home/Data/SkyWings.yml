@@ -1,0 +1,71 @@
+﻿---
+ID: "4f3084c1-b927-43dd-bfca-8f90c63b97e9"
+Parent: "99536ff1-02bf-5b2e-a94a-1bbba4cf50fa"
+Template: "c90b0347-d613-4f8e-a0d2-c288f42d7d8c"
+Path: /sitecore/content/PLAY/playwebsite/home/Data/SkyWings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf64ad9-7846-49e8-94d3-b417b30dd699"
+      Hint: Subtitle
+      Value: Modern aircraft and luxurious cabins designed for your comfort
+    - ID: "58319570-ccae-4d13-bcdb-e2d5261a4c3e"
+      Hint: EconomyClassImage
+      Value: |
+        <image mediaid="{CF904C0A-6DEF-4E65-9A82-903A7A494800}" />
+    - ID: "5b37bac5-f74e-40e0-bb90-7ca5f0b189b2"
+      Hint: EconomyClassText
+      Value: |
+        <p>Comfortable travel with modern amenities, entertainment, and quality service</p>
+        <ul>
+            <li>Ergonomic seats with extra legroom</li>
+            <li>Complimentary WiFi</li>
+            <li>Personal entertainment screen</li>
+        </ul>
+    - ID: "655e76c2-3254-4fa5-83a7-765df0b6f4a3"
+      Hint: FirstClassImage
+      Value: |
+        <image mediaid="{CF904C0A-6DEF-4E65-9A82-903A7A494800}" />
+    - ID: "67144dca-3dc1-41e5-acae-12be670a5321"
+      Hint: FirstClassTitle
+      Value: First Class
+    - ID: "71c78df1-507f-4a4c-b30e-76cc5e3b9e8a"
+      Hint: BusinessClassText
+      Value: |
+        <p>Premium comfort with lie-flat seats, priority service, and exclusive lounges</p>
+        <ul>
+            <li>Lie-flat seats with direct aisle access</li>
+            <li>Premium dining options</li>
+            <li>Priority boarding &amp; baggage</li>
+        </ul>
+    - ID: "890b9192-76dd-4132-84f8-6562601d1b4c"
+      Hint: EconomyClassTitle
+      Value: Economy Class
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e266035-5ecc-4810-8c71-c529da6c70fc"
+    - ID: "a047e226-398d-4263-b7af-0933dff5d653"
+      Hint: BusinessClassImage
+      Value: |
+        <image mediaid="{CF904C0A-6DEF-4E65-9A82-903A7A494800}" />
+    - ID: "c0e4404d-19ac-446a-b6d0-0583d1b743bd"
+      Hint: FirstClassText
+      Value: |
+        <p>Ultimate luxury with private suites, gourmet dining, and personalized service</p>
+        <ul>
+            <li>Private suite with lie-flat bed</li>
+            <li>Chef-curated meals</li>
+            <li>Premium entertainment system</li>
+        </ul>
+    - ID: "d123d22c-004a-401e-8473-015ba40fc67a"
+      Hint: BusinessClassTitle
+      Value: Business Class
+    - ID: "e1caf3d6-569c-4ac7-85a2-e4b4240bc35e"
+      Hint: Title
+      Value: Our Fleet & Experience
+    - ID: "f6624f77-62d3-4326-b311-9cd1d9afcad4"
+      Hint: Image
+      Value: |
+        <image mediaid="{CB6782F2-3134-4EA0-98C8-799DE3654FC7}" />

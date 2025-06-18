@@ -1,0 +1,20 @@
+﻿---
+ID: "9aaa1cd5-9fb4-4717-b848-40058fd31173"
+Parent: "44864379-85fa-46df-a102-35a8bc2391b5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsFleet
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{C90B0347-D613-4F8E-A0D2-C288F42D7D8C}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "94595f62-6432-453d-8133-46ead748641f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "148e460a-e0f9-421f-9000-81b854db1d29"
