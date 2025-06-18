@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import {
