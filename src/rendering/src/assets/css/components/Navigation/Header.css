@@ -1,5 +1,5 @@
 .header-eyebrow {
-  @apply  text-white;
+  @apply text-white;
 
   .content {
     @apply flex flex-wrap justify-end content-center px-4 h-7;

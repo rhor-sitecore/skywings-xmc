@@ -5,11 +5,6 @@
     @apply text-sm font-bold w-full;
   }
 
-  &.price-orange {
-    .price-base {
-    }
-  }
-
   &.price-large {
     .price-base {
       @apply text-xl;
@@ -27,11 +22,6 @@
 
     .price-final {
       @apply text-sm font-bold w-full;
-    }
-
-    &.price-orange {
-      .price-final {
-      }
     }
 
     &.price-large {

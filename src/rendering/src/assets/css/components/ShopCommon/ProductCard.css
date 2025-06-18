@@ -18,7 +18,6 @@
   .product-info-container {
     @apply bg-white p-2;
 
-
     .product-name {
       @apply text-sm font-bold overflow-hidden text-black overflow-ellipsis whitespace-nowrap transition-colors;
     }
