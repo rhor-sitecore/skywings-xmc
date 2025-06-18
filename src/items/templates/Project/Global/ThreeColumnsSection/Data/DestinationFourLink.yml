@@ -1,24 +1,18 @@
 ﻿---
-ID: "da225a0d-6c21-5207-9510-6089e5352730"
+ID: "4637d271-82ac-4811-a2c4-31dbab7dd966"
 Parent: "25ffa435-e418-5040-8fcd-5020df5c4ff2"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Global/ThreeColumnsSection/Data/Subtitle
+Path: /sitecore/templates/Project/Global/ThreeColumnsSection/Data/DestinationFourLink
 SharedFields:
-- ID: "39847666-389d-409b-95bd-f2016f11eed5"
-  Hint: Unversioned
-  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
-- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
-  Hint: Shared
-  Value: 
+  Value: 1400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0e25e42e-9389-4f40-94ce-ce12f5f6476a"
+  Value: "355c034d-f355-42da-b609-52eb909b946d"
 Languages:
 - Language: en
   Versions:
@@ -26,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5687a89-6a76-4990-95c5-9155e2e42473"
+      Value: "f63ab191-6709-44e7-b0b9-85c76ca225d4"

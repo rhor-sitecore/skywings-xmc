@@ -1,0 +1,13 @@
+﻿---
+ID: "7efcc256-0d7f-4001-bf0e-2006ae93fda8"
+Parent: "90ae357f-6171-4ea9-808c-5600b678f726"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/SkyWings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2591c3f-c280-4f8b-980f-dd078c4276a4"

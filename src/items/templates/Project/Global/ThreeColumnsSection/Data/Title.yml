@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Global/ThreeColumnsSection/Data/Title
 SharedFields:
 - ID: "39847666-389d-409b-95bd-f2016f11eed5"
   Hint: Unversioned
-  Value: 0
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
@@ -15,7 +15,10 @@ SharedFields:
   Value: 100
 - ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
   Hint: Shared
-  Value: 0
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b0acbba3-8249-49a5-b28f-f8f933650421"
 Languages:
 - Language: en
   Versions:
@@ -23,4 +26,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3f4addc1-0f0d-4d5a-a0bc-c67dcbb549ae"
+      Value: "78c1b851-81ed-467b-9757-0a085ab8f1f1"

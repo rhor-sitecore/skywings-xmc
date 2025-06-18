@@ -1,10 +1,6 @@
 import {
-  Text,
   Field,
-  RichText,
-  Image,
   ImageField,
-  Placeholder,
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
@@ -13,27 +9,11 @@ import {
   MapPin,
   CalendarIcon,
   Users,
-  Star,
-  Shield,
-  Clock,
-  Headphones,
-  Wifi,
-  Coffee,
-  Luggage,
-  CreditCard,
-  Phone,
-  Mail,
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
 } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/src/components/components/ui/card"
+import { Card, CardContent } from "@/src/components/components/ui/card"
 import { Popover, PopoverContent, PopoverTrigger } from "@/src/components/components/ui/popover"
-import { Separator } from "@/src/components/components/ui/separator"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/src/components/components/ui/select"
 import { Calendar } from "@/src/components/components/ui/calendar"
-import { Badge } from "@/src/components/components/ui/badge"
 import { Button } from "@/src/components/components/ui/button"
 import { Input } from "@/src/components/components/ui/input"
 

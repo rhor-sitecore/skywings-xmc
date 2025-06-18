@@ -9,88 +9,99 @@ Languages:
   - Version: 1
     Fields:
     - ID: "0454f4d4-38d7-51cc-a08a-e5c69eed9a5c"
-      Hint: RightTitle
-      Value: View Vendors
+      Hint: DestinationThreeTitle
+      Value: New York
+    - ID: "045eb518-3a98-4f53-b1b6-a02d70589c10"
+      Hint: DestinationFourTitle
+      Value: London
     - ID: "07d6c7b7-7c29-540b-b602-00b15c377ed2"
       Hint: Title
-      Value: GO THE DISTANCE
+      Value: Popular Destinations
     - ID: "0c09865d-f9e6-564a-8dc9-f46c7e49a687"
-      Hint: RightLogo
+      Hint: DestinationThreeImage
       Value: |
-        <image mediaid="{D6AECB2C-9006-450A-ABD7-CFE9AF3C7136}" />
+        <image mediaid="{FBC4AC7E-B628-4D2B-B3B0-912A3D46C5EB}" />
     - ID: "1db8dbf5-944f-562d-ab5f-66e91325a159"
-      Hint: MiddleTitle
-      Value: 32 Speakers and Guest Speakers
+      Hint: DestinationTwoTitle
+      Value: Tokyo
     - ID: "2d39d751-cfc9-5e7b-a6b7-036eb48b0241"
-      Hint: RightLink
+      Hint: DestinationThreeLink
       Value: |
         <link class="" id="{774E44E8-0F30-5879-B847-AD233FFB41AA}" querystring="" anchor="" title="" linktype="internal" text="View Vendors" url="/PLAY/playwebsite/home/vendors" />
+    - ID: "4637d271-82ac-4811-a2c4-31dbab7dd966"
+      Hint: DestinationFourLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{68DC89A4-1B04-59A8-9C4E-3B49D6C61052}" />
     - ID: "4bcf7d15-f018-5ca8-ae87-54499668a439"
-      Hint: LeftLink
+      Hint: DestinationOneLink
       Value: |
         <link class="" id="{68DC89A4-1B04-59A8-9C4E-3B49D6C61052}" querystring="" anchor="" title="" linktype="internal" text="View Sessions" url="/PLAY/playwebsite/home/sessions" />
     - ID: "676de5cb-067f-50d4-b1e9-3a51f2c973c2"
-      Hint: MiddleLogo
+      Hint: DestinationTwoImage
       Value: |
-        <image mediaid="{CCAA3DA2-F72A-4AED-8B44-674BBD9DC5A6}" />
+        <image mediaid="{7CB98396-9E74-4A91-8E8E-1200EB1CF8B9}" />
     - ID: "69c79660-030e-5751-a31b-b095949d2126"
-      Hint: LeftLogo
+      Hint: DestinationOneImage
       Value: |
-        <image mediaid="{21C5D87C-3E77-4AFA-82FF-665B15EA7806}" />
+        <image mediaid="{72B54770-13D4-4572-9A4F-89E956359AD1}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6721f569-15be-42b5-9b45-e4379b8343f4"
+      Value: "5cb74ab2-008b-4499-9405-3b956dcf6a8c"
     - ID: "a8282684-a5d5-57be-b6f6-a509c6ccdbe3"
-      Hint: LeftTitle
-      Value: 48 Talks and Workshops
+      Hint: DestinationOneTitle
+      Value: Paris
     - ID: "cffaaa85-da42-588a-8846-e91e1be15067"
-      Hint: MiddleLink
+      Hint: DestinationTwoLink
       Value: |
         <link class="" id="{1F4B781B-F2A5-5647-99DF-C0C369162C4D}" querystring="" anchor="" title="" linktype="internal" text="View Speakers" url="/PLAY/playwebsite/home/speakers" />
     - ID: "da225a0d-6c21-5207-9510-6089e5352730"
       Hint: Subtitle
-      Value: "Whether you’re joining us in person or online, this year’s PLAY! Summit is set to be our biggest and best event yet. Look forward to an action-packed line-up featuring keynotes, Q&As, demos, and workshops across a mix of live and virtual stages."
+      Value: Explore our most loved destinations around the world
+    - ID: "e07c388a-e3ce-424b-bd4f-fd59170db9ae"
+      Hint: DestinationFourImage
+      Value: |
+        <image mediaid="{B27313A5-68DC-40DE-89FB-A33A223F67AF}" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "0454f4d4-38d7-51cc-a08a-e5c69eed9a5c"
-      Hint: RightTitle
+      Hint: DestinationThreeTitle
       Value: Voir les fournisseurs
     - ID: "07d6c7b7-7c29-540b-b602-00b15c377ed2"
       Hint: Title
       Value: PARCOURIR LA DISTANCE
     - ID: "0c09865d-f9e6-564a-8dc9-f46c7e49a687"
-      Hint: RightLogo
+      Hint: DestinationThreeImage
       Value: |
         <image mediaid="{D6AECB2C-9006-450A-ABD7-CFE9AF3C7136}" />
     - ID: "1db8dbf5-944f-562d-ab5f-66e91325a159"
-      Hint: MiddleTitle
+      Hint: DestinationTwoTitle
       Value: 32 Conférenciers et Invités
     - ID: "2d39d751-cfc9-5e7b-a6b7-036eb48b0241"
-      Hint: RightLink
+      Hint: DestinationThreeLink
       Value: |
         <link class="" id="{774E44E8-0F30-5879-B847-AD233FFB41AA}" querystring="" anchor="" title="" linktype="internal" text="Voir les fournisseurs" url="/PLAY/playwebsite/home/vendors" />
     - ID: "4bcf7d15-f018-5ca8-ae87-54499668a439"
-      Hint: LeftLink
+      Hint: DestinationOneLink
       Value: |
         <link class="" id="{68DC89A4-1B04-59A8-9C4E-3B49D6C61052}" querystring="" anchor="" title="" linktype="internal" text="Voir les séances" url="/PLAY/playwebsite/home/sessions" />
     - ID: "676de5cb-067f-50d4-b1e9-3a51f2c973c2"
-      Hint: MiddleLogo
+      Hint: DestinationTwoImage
       Value: |
         <image mediaid="{CCAA3DA2-F72A-4AED-8B44-674BBD9DC5A6}" />
     - ID: "69c79660-030e-5751-a31b-b095949d2126"
-      Hint: LeftLogo
+      Hint: DestinationOneImage
       Value: |
         <image mediaid="{21C5D87C-3E77-4AFA-82FF-665B15EA7806}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "fd5f6a74-406e-489b-a1d9-a73767fff434"
     - ID: "a8282684-a5d5-57be-b6f6-a509c6ccdbe3"
-      Hint: LeftTitle
+      Hint: DestinationOneTitle
       Value: 48 Conférences et Ateliers
     - ID: "cffaaa85-da42-588a-8846-e91e1be15067"
-      Hint: MiddleLink
+      Hint: DestinationTwoLink
       Value: |
         <link class="" id="{1F4B781B-F2A5-5647-99DF-C0C369162C4D}" querystring="" anchor="" title="" linktype="internal" text="Voir les conférenciers" url="/PLAY/playwebsite/home/speakers" />
     - ID: "da225a0d-6c21-5207-9510-6089e5352730"
