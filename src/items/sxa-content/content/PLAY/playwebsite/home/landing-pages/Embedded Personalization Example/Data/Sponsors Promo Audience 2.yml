@@ -28,14 +28,14 @@ Languages:
         <image mediaid="{D6AECB2C-9006-450A-ABD7-CFE9AF3C7136}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1543712-6677-48a3-8afd-5e321cf0c688"
+      Value: "0dba53e4-c860-4b4d-9f8a-452612b06df8"
     - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
       Hint: PromoText3
       Value: <p>from a specific campaign</p>
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
       Value: |
-        <link linktype="internal" id="66c99e47-7bbf-52d1-b1d7-4662b850744a" anchor="" querystring="" target="" class="" text="Learn more" title=""/>
+        <link class="" querystring="" id="66c99e47-7bbf-52d1-b1d7-4662b850744a" anchor="" target="" title="" linktype="internal" text="Learn more" url="/PLAY/playwebsite/home/destinations" />
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

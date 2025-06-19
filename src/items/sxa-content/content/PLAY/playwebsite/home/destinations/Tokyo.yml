@@ -1,0 +1,50 @@
+﻿---
+ID: "c5509cbf-8c55-4737-bd01-03d3201658c4"
+Parent: "66c99e47-7bbf-52d1-b1d7-4662b850744a"
+Template: "ef7831ee-90da-4641-bc43-4e03086cd79b"
+Path: /sitecore/content/PLAY/playwebsite/home/destinations/Tokyo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
+      Hint: Title
+      Value: Tokyo
+    - ID: "1a13b43e-eccb-4cd0-b116-da09da2a3d86"
+      Hint: Continent
+      Value: Asia
+    - ID: "49d537b9-a946-4e37-8014-5dddc3645b50"
+      Hint: Country
+      Value: Japan
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tokyo
+    - ID: "6dd6f015-af05-4c12-83dc-ec30709d5a04"
+      Hint: BestMonths
+      Value: "Mar-May, Sep-Nov"
+    - ID: "7ec684b5-864d-40f7-9dba-fbea18df983e"
+      Hint: Image
+      Value: |
+        <image mediaid="{72B297F7-0A59-43AF-B694-2DAF432045EB}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb59f56f-75d0-4753-8127-f5e23913284e"
+    - ID: "c2f2b003-e9fc-41d1-8514-450e54da0e4f"
+      Hint: Type
+      Value: City
+    - ID: "dcf9589d-33db-444d-a08d-011d4d31aaa3"
+      Hint: Rating
+      Value: 4.9
+    - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
+      Hint: Content
+      Value: "<span>A fascinating blend of ultra-modern technology and traditional culture in Japan's bustling capital.</span>"
+    - ID: "e75205cd-d5b9-472e-91bb-1909c022383b"
+      Hint: Price
+      Value: from $899
+    - ID: "f0d7aba1-a444-48ff-ba72-a4596052b121"
+      Hint: ExpectedTemps
+      Value: "10-28C"
+    - ID: "fa1363ec-4c5b-4464-8a9f-92dc430278a2"
+      Hint: SuggestedDuration
+      Value: "5-10 days"

@@ -28,14 +28,14 @@ Languages:
         <image mediaid="{21C5D87C-3E77-4AFA-82FF-665B15EA7806}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "954a4579-820a-44f7-8b27-a1fd4c4cc4cf"
+      Value: "86116485-9cee-48e6-a2e9-4208d7ed537e"
     - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
       Hint: PromoText3
       Value: <p>visited a specific page</p>
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
       Value: |
-        <link linktype="internal" id="66c99e47-7bbf-52d1-b1d7-4662b850744a" anchor="" querystring="" target="" class="" text="Sponsors" title=""/>
+        <link class="" querystring="" id="66c99e47-7bbf-52d1-b1d7-4662b850744a" anchor="" target="" title="" linktype="internal" text="Sponsors" url="/PLAY/playwebsite/home/destinations" />
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

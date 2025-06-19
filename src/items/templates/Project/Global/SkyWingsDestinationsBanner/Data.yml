@@ -1,0 +1,13 @@
+﻿---
+ID: "7cc06229-c0e6-44be-9a87-1e0c4b3b44c2"
+Parent: "a18156bd-2645-4d84-ab83-30eeb3347b60"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Global/SkyWingsDestinationsBanner/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1643850-8a7a-49a9-a904-546981c07c63"

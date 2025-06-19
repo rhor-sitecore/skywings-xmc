@@ -1,0 +1,23 @@
+﻿---
+ID: "f0d7aba1-a444-48ff-ba72-a4596052b121"
+Parent: "66d9c5be-7db8-452e-a603-dd8c5ecba452"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/PLAY/Destination/Destination Data/ExpectedTemps
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5c1f892f-aa21-4fc5-9660-63c0e043248b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "983b10aa-957a-4e3e-90a8-1bf220c6824a"

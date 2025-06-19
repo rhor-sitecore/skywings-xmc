@@ -10,11 +10,10 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6dca1450-69a9-4987-8fd8-bcc6f7d96984"
+      Value: "6ce1e1e2-2f96-49ad-9ae0-99cd1e14f161"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6CF37FF6-755C-5B1A-B5EB-63F03481DB4A}" />
+      Value: 
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -25,8 +24,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e71280ad-4f45-4853-9073-df3d7c636012"
+      Value: "7aa14cf9-71e0-4cfa-888e-b497cca096d1"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6CF37FF6-755C-5B1A-B5EB-63F03481DB4A}" />
+      Value: 

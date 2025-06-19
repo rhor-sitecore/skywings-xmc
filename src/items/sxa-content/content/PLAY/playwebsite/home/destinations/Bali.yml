@@ -1,0 +1,50 @@
+﻿---
+ID: "04f9372e-4dfc-4b9a-a06c-91245b3992a6"
+Parent: "66c99e47-7bbf-52d1-b1d7-4662b850744a"
+Template: "ef7831ee-90da-4641-bc43-4e03086cd79b"
+Path: /sitecore/content/PLAY/playwebsite/home/destinations/Bali
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
+      Hint: Title
+      Value: Bali
+    - ID: "1a13b43e-eccb-4cd0-b116-da09da2a3d86"
+      Hint: Continent
+      Value: Asia
+    - ID: "49d537b9-a946-4e37-8014-5dddc3645b50"
+      Hint: Country
+      Value: Indonesia
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bali
+    - ID: "6dd6f015-af05-4c12-83dc-ec30709d5a04"
+      Hint: BestMonths
+      Value: "Apr-Oct"
+    - ID: "7ec684b5-864d-40f7-9dba-fbea18df983e"
+      Hint: Image
+      Value: |
+        <image mediaid="{72B297F7-0A59-43AF-B694-2DAF432045EB}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30601db5-cb25-4f7d-9162-9b0107599a9c"
+    - ID: "c2f2b003-e9fc-41d1-8514-450e54da0e4f"
+      Hint: Type
+      Value: Beach
+    - ID: "dcf9589d-33db-444d-a08d-011d4d31aaa3"
+      Hint: Rating
+      Value: 4.8
+    - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
+      Hint: Content
+      Value: <span>Tropical paradise with stunning beaches, ancient temples, and vibrant cultural traditions.</span>
+    - ID: "e75205cd-d5b9-472e-91bb-1909c022383b"
+      Hint: Price
+      Value: from $699
+    - ID: "f0d7aba1-a444-48ff-ba72-a4596052b121"
+      Hint: ExpectedTemps
+      Value: "24-31C"
+    - ID: "fa1363ec-4c5b-4464-8a9f-92dc430278a2"
+      Hint: SuggestedDuration
+      Value: "7-14 days"

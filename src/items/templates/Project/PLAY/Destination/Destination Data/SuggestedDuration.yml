@@ -1,0 +1,23 @@
+﻿---
+ID: "fa1363ec-4c5b-4464-8a9f-92dc430278a2"
+Parent: "66d9c5be-7db8-452e-a603-dd8c5ecba452"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/PLAY/Destination/Destination Data/SuggestedDuration
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d05d70b0-b437-4a0b-8074-c0be56b5950f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95c52d1a-0bb1-42c5-951b-ae4b4f5f22cb"

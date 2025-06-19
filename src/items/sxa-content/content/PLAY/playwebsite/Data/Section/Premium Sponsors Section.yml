@@ -20,11 +20,10 @@ Languages:
       Value: "Sincere thanks to all our event partners and national sponsors that make this year's Play! Summit possible."
     - ID: "3df1996f-e6b3-52c9-82c7-c8ba54147c1f"
       Hint: callToActionLink
-      Value: |
-        <link class="" id="{6CF37FF6-755C-5B1A-B5EB-63F03481DB4A}" querystring="" anchor="" title="" linktype="internal" text="Become a Sponsor" url="/PLAY/playwebsite/home/sponsors/Become a sponsor" />
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7fbae9a5-1efc-43bb-8889-93909fd7e132"
+      Value: "d9a8f6e5-7188-4386-9997-3c2064489b8a"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -40,11 +39,10 @@ Languages:
         
     - ID: "3df1996f-e6b3-52c9-82c7-c8ba54147c1f"
       Hint: callToActionLink
-      Value: |
-        <link class="" id="{6CF37FF6-755C-5B1A-B5EB-63F03481DB4A}" querystring="" anchor="" title="" linktype="internal" text="Devenir commanditaire" url="/PLAY/playwebsite/home/sponsors/Become a sponsor" />
+      Value: 
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{F103752C-F458-47E0-B322-99785275BDB9}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7247e0f4-37c9-40e6-890c-1ab25c106436"
+      Value: "c2cbdb61-7761-4ab7-aa5c-6ca87d7a7f38"

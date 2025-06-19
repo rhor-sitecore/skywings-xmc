@@ -1,15 +1,15 @@
 ﻿---
-ID: "88111ccd-b305-49ec-b2c2-3d64a0061834"
+ID: "021b9170-1aff-4aa4-93ad-1090d00a4a9b"
 Parent: "3006ec5b-0438-414b-860e-e6754658ea12"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/PLAY/Page Content/SkyWingsBlogGrid
+Path: /sitecore/layout/Renderings/Project/PLAY/Page Content/SkyWingsDestinationsList
 SharedFields:
 - ID: "003a72cd-4cd6-4392-9862-41d4159929cd"
   Hint: Data source
-  Value: /sitecore/content/PLAY/playwebsite/home/travelblog
+  Value: /sitecore/content/PLAY/playwebsite/home/destinations
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SkyWingsBlogGrid
+  Value: SkyWingsDestinationsList
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "edgeicons/32x32/news-grid.png"
@@ -21,7 +21,7 @@ SharedFields:
   Value: "{3C13BF6C-32DD-4F40-BCC9-208B47F21BB5}"
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
-  Value: "{D10E6A68-FA11-4D95-99F7-59C896078937}"
+  Value: "{FC5201C0-7E5F-483C-818B-BFE8A55A5A0F}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: 
@@ -30,7 +30,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e1156c54-2df5-4cc1-8881-41beb2f6001f"
+  Value: "3832f071-ce59-4281-9801-953fe74f1f09"
 Languages:
 - Language: en
   Versions:
@@ -38,4 +38,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6ac77f86-5e41-47ae-8d82-c5e853d72656"
+      Value: "3ef74ebc-3c7c-42ee-97c6-761ccb6f1d21"

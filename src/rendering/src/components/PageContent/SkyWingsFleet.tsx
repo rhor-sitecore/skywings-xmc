@@ -30,7 +30,6 @@ export type SkyWingsFleetProps = ComponentProps & {
 
 const SkyWingsFleet = ({ fields, params }: SkyWingsFleetProps): JSX.Element => {
   const sxaStyles = `${params?.styles || ''}`;
-  console.log(fields);
 
   return (
     <section className={`py-16 ${sxaStyles}`}>

@@ -27,7 +27,6 @@ const categories = [
 ]
 
 const SkyWingsBlogBanner = (props: SkyWingsBlogBannerProps): JSX.Element => {
-  console.log(props);
   return (
     <>
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">

@@ -14,11 +14,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f04f3e7f-2214-4b18-aa1c-fe2f047259bb"
+      Value: "4bce185f-cc4f-4350-899f-4181a4f1124b"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/sponsors" />
+        <link class="" querystring="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/destinations" />
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -29,8 +29,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "46de85df-dfb9-4d82-b8b1-e23a47a2f636"
+      Value: "e1bda076-5cd1-495f-aff1-922a1a521b1b"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/sponsors" />
+        <link class="" querystring="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/destinations" />

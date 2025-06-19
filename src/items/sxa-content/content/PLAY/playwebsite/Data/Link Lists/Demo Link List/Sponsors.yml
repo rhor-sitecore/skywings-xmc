@@ -11,7 +11,7 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link text="Sponsors" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" />
+        <link class="" id="{66C99E47-7BBF-52D1-B1D7-4662B850744A}" querystring="" anchor="" target="" title="" linktype="internal" text="Sponsors" url="/PLAY/playwebsite/home/destinations" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "125adb16-0d42-4325-90a2-c9e65da938d9"
+      Value: "c7699fd5-494b-4044-8ad5-d1bff572dd7e"

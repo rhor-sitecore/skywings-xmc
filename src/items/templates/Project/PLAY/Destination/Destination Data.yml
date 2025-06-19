@@ -1,0 +1,13 @@
+﻿---
+ID: "66d9c5be-7db8-452e-a603-dd8c5ecba452"
+Parent: "ef7831ee-90da-4641-bc43-4e03086cd79b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/PLAY/Destination/Destination Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9259510-9b52-4ec4-a7ac-0c3b1295c64e"
