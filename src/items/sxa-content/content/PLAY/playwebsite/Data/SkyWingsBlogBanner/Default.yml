@@ -1,0 +1,19 @@
+﻿---
+ID: "088980fd-7c9e-4ab6-a2e5-9b5c4fbc72f6"
+Parent: "507d356a-88ce-4e7f-8b0a-ff9b84ea9af0"
+Template: "2907a470-eaf9-4800-b531-1705ab55be7d"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsBlogBanner/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3b07f443-f350-41c6-9e48-c3c27d6d4ada"
+      Hint: Subtitle
+      Value: Discover amazing destinations, travel tips, and inspiring stories from around the world
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f9b39a99-3924-4720-b6e0-7cd34b8c43a3"
+    - ID: "d41c68da-e098-4f06-b447-acf691003704"
+      Hint: Title
+      Value: SkyWings Travel Blog

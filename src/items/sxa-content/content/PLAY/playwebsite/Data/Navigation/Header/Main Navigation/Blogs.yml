@@ -17,11 +17,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "540a352b-027c-4656-bc8c-1984e2838c97"
+      Value: "175d14f0-1cef-4a06-9721-a81ba5262b16"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{2717574C-48A0-5469-85A8-A332DF71F1E4}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/about-us" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" />
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

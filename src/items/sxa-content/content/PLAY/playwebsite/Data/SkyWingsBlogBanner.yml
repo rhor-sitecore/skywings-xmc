@@ -1,0 +1,20 @@
+﻿---
+ID: "507d356a-88ce-4e7f-8b0a-ff9b84ea9af0"
+Parent: "44864379-85fa-46df-a102-35a8bc2391b5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsBlogBanner
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{2907A470-EAF9-4800-B531-1705AB55BE7D}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "644ff2a7-5853-4e58-a674-0cb29eb5640a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0dd04df4-beb2-4304-9f4e-7d398de80acd"

@@ -1,0 +1,13 @@
+﻿---
+ID: "43f77fd3-4c52-4583-9855-00589ef61523"
+Parent: "2907a470-eaf9-4800-b531-1705ab55be7d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Global/SkyWingsBlogBanner/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1643850-8a7a-49a9-a904-546981c07c63"

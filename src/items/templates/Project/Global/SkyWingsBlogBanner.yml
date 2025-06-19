@@ -1,0 +1,23 @@
+﻿---
+ID: "2907a470-eaf9-4800-b531-1705ab55be7d"
+Parent: "fec1fe1d-4d65-4554-b3cd-6899c57e3785"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Global/SkyWingsBlogBanner
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/16x16/document_tag.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6238a44e-d13c-4487-aa98-8a5b2789da2c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78593814-d4f0-4924-888e-5264bda73719"
