@@ -47,7 +47,6 @@ const SkyWingsDestinationsList = (props: SkyWingsDestinationsListProps): JSX.Ele
                                         height={300}
                                         className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                                     <div className="absolute top-4 left-4">
                                         <Badge className="bg-blue-600"><Text field={destination.fields.Type} /></Badge>
                                     </div>
