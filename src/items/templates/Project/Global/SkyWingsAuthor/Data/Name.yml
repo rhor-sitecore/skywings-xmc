@@ -1,0 +1,23 @@
+﻿---
+ID: "9e0fa8b7-7ba7-417a-a13c-5836b5cd457d"
+Parent: "4a8ba4f5-eb5a-4755-93b8-63c3e5f70aa5"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/SkyWingsAuthor/Data/Name
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "770f5a39-f04f-4631-b9c7-b79cf4b9668d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c53242a4-8a67-4437-977f-f8802ec645fe"

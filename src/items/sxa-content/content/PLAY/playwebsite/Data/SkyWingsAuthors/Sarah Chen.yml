@@ -1,0 +1,23 @@
+﻿---
+ID: "f5defbcc-3565-401a-b62a-f83b128aac15"
+Parent: "4c611920-a2fb-4c49-83e5-0e422cd70660"
+Template: "98f8131c-1399-4023-be07-71e881a3de17"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsAuthors/Sarah Chen
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22c4c89a-4d9a-47ab-ab05-e614938d6e3d"
+      Hint: Picture
+      Value: |
+        <image mediaid="{4AB4C43A-B336-4E2D-BFE4-C132E889B1A6}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0fd2007-d49a-4359-bb1b-fb61aede3bf2"
+    - ID: "9e0fa8b7-7ba7-417a-a13c-5836b5cd457d"
+      Hint: Name
+      Value: Sarah Chen
+    - ID: "d57f7816-a985-4679-9f8a-d9f520657169"
+      Hint: Bio
+      Value: <span>Sarah is a travel writer and photographer who has been exploring Southeast Asia for over 8 years. She specializes in finding hidden destinations and authentic cultural experiences.</span>

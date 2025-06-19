@@ -16,6 +16,24 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2edf20a8-39e8-4729-9197-0ea83fb8425c"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{41F587A7-88D8-4210-BDA7-F6A0E6FBC3AF}"
+          s:ds="{F5DEFBCC-3565-401A-B62A-F83B128AAC15}"
+          s:id="{D3B4F3E7-B658-4FA1-8AEA-BBF6047964A5}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/sxa-main/container-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -45,7 +63,7 @@ Languages:
       Value: "Hidden Gems of Southeast Asia: 10 Destinations You Haven't Discovered Yet"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ef4bc4e-f7e8-432c-94f8-a406b3421ecd"
+      Value: "e50ee888-a1ce-42c3-92d6-b362a2ecc06d"
     - ID: "92d50f01-4c2a-4f91-a4e1-3808188c5304"
       Hint: ReadTime
       Value: 8 min read

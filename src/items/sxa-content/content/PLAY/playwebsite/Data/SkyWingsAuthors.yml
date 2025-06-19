@@ -1,0 +1,20 @@
+﻿---
+ID: "4c611920-a2fb-4c49-83e5-0e422cd70660"
+Parent: "44864379-85fa-46df-a102-35a8bc2391b5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsAuthors
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{98F8131C-1399-4023-BE07-71E881A3DE17}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "246fd509-5d85-4220-85d3-010698caa990"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ac5ccc6-e475-4270-8e32-dba37cf70675"

@@ -1,0 +1,19 @@
+﻿---
+ID: "5d7f5067-f4c6-4227-8490-6866b5e912e9"
+Parent: "4c611920-a2fb-4c49-83e5-0e422cd70660"
+Template: "98f8131c-1399-4023-be07-71e881a3de17"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsAuthors/Yuki Tanaka
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d1dfab4-148e-4873-896f-a9c1a7f75ceb"
+    - ID: "9e0fa8b7-7ba7-417a-a13c-5836b5cd457d"
+      Hint: Name
+      Value: Yuki Tanaka
+    - ID: "d57f7816-a985-4679-9f8a-d9f520657169"
+      Hint: Bio
+      Value: Yuki Tanaka is a travel blogger who showcases the vibrant life, culture, and hidden gems of Tokyo through a local&rsquo;s perspective.

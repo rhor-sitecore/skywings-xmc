@@ -1,0 +1,13 @@
+﻿---
+ID: "4a8ba4f5-eb5a-4755-93b8-63c3e5f70aa5"
+Parent: "98f8131c-1399-4023-be07-71e881a3de17"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Global/SkyWingsAuthor/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "64484886-f8b4-4cfe-b959-514d88b7aed2"

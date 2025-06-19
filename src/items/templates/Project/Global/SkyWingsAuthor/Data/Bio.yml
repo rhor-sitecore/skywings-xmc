@@ -1,0 +1,23 @@
+﻿---
+ID: "d57f7816-a985-4679-9f8a-d9f520657169"
+Parent: "4a8ba4f5-eb5a-4755-93b8-63c3e5f70aa5"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/SkyWingsAuthor/Data/Bio
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2400
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d1b2a847-2ee5-45bf-b5e9-d84ec0dc5ed6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9698a5c4-e1b9-4238-884b-e0abe9ffada6"

@@ -1,0 +1,16 @@
+﻿---
+ID: "b6dd65a6-9d64-4528-9146-f0aeeb4fc348"
+Parent: "98f8131c-1399-4023-be07-71e881a3de17"
+Template: "98f8131c-1399-4023-be07-71e881a3de17"
+Path: /sitecore/templates/Project/Global/SkyWingsAuthor/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e93b907-86c5-4181-8162-ebf52cf20b8f"
+    - ID: "9e0fa8b7-7ba7-417a-a13c-5836b5cd457d"
+      Hint: Name
+      Value: $name

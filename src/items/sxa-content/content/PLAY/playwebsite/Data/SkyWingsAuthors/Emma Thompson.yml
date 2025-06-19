@@ -1,0 +1,16 @@
+﻿---
+ID: "62382014-5025-4f1c-90c1-a03622a02aa5"
+Parent: "4c611920-a2fb-4c49-83e5-0e422cd70660"
+Template: "98f8131c-1399-4023-be07-71e881a3de17"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsAuthors/Emma Thompson
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01ad6bd3-ee2f-4c54-b005-7ab7268e83c8"
+    - ID: "d57f7816-a985-4679-9f8a-d9f520657169"
+      Hint: Bio
+      Value: "Emma Thompson is a travel blogger dedicated to exploring the world responsibly, with a focus on sustainable adventures and eco-conscious experiences."

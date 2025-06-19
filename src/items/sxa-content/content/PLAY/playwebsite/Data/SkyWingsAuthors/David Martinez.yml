@@ -1,0 +1,23 @@
+﻿---
+ID: "33c56b77-ddb4-4d2a-a62a-761010475f05"
+Parent: "4c611920-a2fb-4c49-83e5-0e422cd70660"
+Template: "98f8131c-1399-4023-be07-71e881a3de17"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsAuthors/David Martinez
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22c4c89a-4d9a-47ab-ab05-e614938d6e3d"
+      Hint: Picture
+      Value: |
+        <image mediaid="{741BB180-7132-49D6-BBB4-98125AA34E3C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba403c68-47d2-4a14-836b-8d263ad57b31"
+    - ID: "9e0fa8b7-7ba7-417a-a13c-5836b5cd457d"
+      Hint: Name
+      Value: David Martinez
+    - ID: "d57f7816-a985-4679-9f8a-d9f520657169"
+      Hint: Bio
+      Value: David Martinez is a travel blogger who uncovers the hidden gems, iconic sights, and vibrant culture of New York City, one story at a time.

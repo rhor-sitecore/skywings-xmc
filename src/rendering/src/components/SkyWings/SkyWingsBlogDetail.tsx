@@ -1,37 +1,37 @@
 import {
-    RichText,
-    Text,
-    Field,
-    ImageField,
-    Image,
-  } from '@sitecore-jss/sitecore-jss-nextjs';
-  import { ComponentProps } from 'lib/component-props';
-  import { Button } from "@/src/components/components/ui/button"
-  import { Badge } from "@/src/components/components/ui/badge"
-  import { Calendar, Clock, Heart, Share2, Facebook, Twitter, Linkedin, ArrowLeft } from "lucide-react"
-  import Link from "next/link"
+  RichText,
+  Text,
+  Field,
+  ImageField,
+  Image,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
+import { Button } from "@/src/components/components/ui/button"
+import { Badge } from "@/src/components/components/ui/badge"
+import { Calendar, Clock, Heart, Share2, Facebook, Twitter, Linkedin, ArrowLeft } from "lucide-react"
+import Link from "next/link"
 
-  
-  type SkyWingsBlogDetailProps = ComponentProps & {
-    fields: {
-      Title: Field<string>;
-      Excerpt: Field<string>;
-      PublishDate: Field<string>;
-      Image: ImageField;
-      Content: Field<string>;
-      Author: Field<string>;
-      ReadTime: Field<string>;
-      Category: Field<string>;
-    };
+
+type SkyWingsBlogDetailProps = ComponentProps & {
+  fields: {
+    Title: Field<string>;
+    Excerpt: Field<string>;
+    PublishDate: Field<string>;
+    Image: ImageField;
+    Content: Field<string>;
+    Author: Field<string>;
+    ReadTime: Field<string>;
+    Category: Field<string>;
   };
-  
-  const SkyWingsBlogDetail = (props: SkyWingsBlogDetailProps): JSX.Element => {
-    const sxaStyles = `${props.params?.styles || ''}`;
-  
-    return (
-      <>
-        <div className={`container mx-auto px-4 py-4 ${sxaStyles}`}>
-        <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800">
+};
+
+const SkyWingsBlogDetail = (props: SkyWingsBlogDetailProps): JSX.Element => {
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <>
+      <div className={`container mx-auto px-4 py-4 ${sxaStyles}`}>
+        <Link href="/travelblog" className="inline-flex items-center text-blue-600 hover:text-blue-800">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Blog
         </Link>
@@ -110,53 +110,10 @@ import {
               <RichText field={props.fields.Content} />
             </div>
           </div>
-
-          {/* Tags */}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Tags</h3>
-            <div className="flex flex-wrap gap-2">
-              {/* {article.tags.map((tag, index) => (
-                <Badge key={index} variant="outline">
-                  {tag}
-                </Badge>
-              ))} */}
-            </div>
-          </div>
-
-          {/* Author Bio */}
-         {/*  <Card className="mb-12">
-            <CardContent className="p-6">
-              <div className="flex items-start space-x-4">
-                <Image
-                  src={article.authorImage || "/placeholder.svg"}
-                  alt={article.author}
-                  width={80}
-                  height={80}
-                  className="rounded-full"
-                /> 
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">About <Text field={props.fields.Category} /></h3>
-                  <p className="text-gray-600 mb-4">{article.authorBio}</p>
-                  <div className="flex items-center space-x-2">
-                    <Button variant="outline" size="sm">
-                      Follow
-                    </Button>
-                    <Button variant="ghost" size="sm">
-                      <Twitter className="h-4 w-4" />
-                    </Button>
-                    <Button variant="ghost" size="sm">
-                      <Linkedin className="h-4 w-4" />
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>*/}
         </div>
       </article>
-      </>
-    );
-  };
-  
-  export const Default = SkyWingsBlogDetail;
-  
+    </>
+  );
+};
+
+export const Default = SkyWingsBlogDetail;
