@@ -9,7 +9,7 @@ SharedFields:
   Value: /sitecore/content/PLAY/playwebsite/home/news
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SkyWingsBlogGrid
+  Value: SkyWingsBlogList
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "edgeicons/32x32/news-grid.png"
@@ -30,7 +30,7 @@ SharedFields:
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "26c6a84c-818d-4101-abfe-b091a9e80f3f"
+  Value: "d70d0997-26b1-4117-928c-0f5fb5848227"
 Languages:
 - Language: en
   Versions:
@@ -38,4 +38,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8643bbfb-07a7-4a10-8abb-b32c69549e2c"
+      Value: "9607cc4c-6721-4741-a13e-6c2afac5ddc7"

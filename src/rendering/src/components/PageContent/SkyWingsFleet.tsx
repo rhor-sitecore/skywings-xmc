@@ -83,9 +83,9 @@ const SkyWingsFleet = ({ fields, params }: SkyWingsFleetProps): JSX.Element => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2"><Text field={fields.FirstClassTitle} /></h3>
-                <p className="text-gray-600 mb-4">
+                <div className="text-gray-600 mb-4">
                   <RichText field={fields.BusinessClassText} />
-                </p>
+                </div>
               </CardContent>
             </Card>
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -95,9 +95,9 @@ const SkyWingsFleet = ({ fields, params }: SkyWingsFleetProps): JSX.Element => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2"><Text field={fields.BusinessClassTitle} /></h3>
-                <p className="text-gray-600 mb-4">
-                <RichText field={fields.FirstClassText} />
-                </p>
+                <div className="text-gray-600 mb-4">
+                  <RichText field={fields.FirstClassText} />
+                </div>
               </CardContent>
             </Card>
 
@@ -108,9 +108,9 @@ const SkyWingsFleet = ({ fields, params }: SkyWingsFleetProps): JSX.Element => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2"><Text field={fields.EconomyClassTitle} /></h3>
-                <p className="text-gray-600 mb-4">
-                <RichText field={fields.EconomyClassText} />
-                </p>
+                <div className="text-gray-600 mb-4">
+                  <RichText field={fields.EconomyClassText} />
+                </div>
               </CardContent>
             </Card>
           </div>

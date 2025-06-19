@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {
+  DateField,
   Image,
   withDatasourceCheck,
   Text,
@@ -10,6 +11,7 @@ import { SkyWingsNews } from 'src/types/skyWingsNews';
 import { Card, CardContent } from "@/src/components/components/ui/card"
 import { Badge } from "@/src/components/components/ui/badge"
 import { Button } from "@/src/components/components/ui/button"
+import { newsDateFormatter } from '../../helpers/DateHelper';
 
 type SkyWingsBlogGridProps = ComponentProps & {
   fields: {
@@ -42,11 +44,18 @@ const SkyWingsBlogGrid = (props: SkyWingsBlogGridProps): JSX.Element => {
               <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
                 <Text field={news.fields.Title } />
               </h3>
-              <p className="text-gray-600 text-sm mb-3 line-clamp-2"><RichText field={news.fields.Excerpt } /></p>
+              <div className="text-gray-600 text-sm mb-3 line-clamp-2"><RichText field={news.fields.Excerpt } /></div>
 
               <div className="flex items-center justify-between text-xs text-gray-500 mb-3">
                 <span><Text field={news.fields.Author } /></span>
-                <span><Text field={news.fields.PublishDate } /></span>
+                <span>
+                  <DateField
+                    tag="p"
+                    className="news-date"
+                    field={news.fields.PublishDate}
+                    render={newsDateFormatter}
+                  />
+                </span>
               </div>
 
               <div className="flex items-center justify-between">
