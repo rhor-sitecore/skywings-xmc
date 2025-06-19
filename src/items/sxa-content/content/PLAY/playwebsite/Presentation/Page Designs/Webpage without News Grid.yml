@@ -6,13 +6,16 @@ Path: /sitecore/content/PLAY/playwebsite/Presentation/Page Designs/Webpage witho
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{E56290B7-DAEB-4355-8C07-974CEB0D7941}|{DEC14166-5327-4C62-A637-2F1191F38826}|{816F91B6-BDD2-4BCC-81FD-D6092F8EB3E7}|{462EFF9E-C56A-414A-9DE3-F0E913233070}"
+  Value: "{E56290B7-DAEB-4355-8C07-974CEB0D7941}|{DEC14166-5327-4C62-A637-2F1191F38826}|{462EFF9E-C56A-414A-9DE3-F0E913233070}"
 - ID: "4a749557-242b-4372-8a20-b2db9d406301"
   Hint: __AutoThumbnails
   Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c79ac96d-3565-456f-9a54-2ca5faf3424a"
 Languages:
 - Language: en
   Versions:
@@ -20,4 +23,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e086cbf2-ebed-4c3a-a9e4-e50e75507fa4"
+      Value: "b6e7ec11-d9f6-4132-a879-eb72cc4eb883"

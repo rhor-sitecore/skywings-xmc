@@ -78,7 +78,10 @@ Languages:
               s:ph="/headless-main/sxa-main/container-1" />
             <r
               uid="{66B83838-1A45-459C-BCF7-B05333715F9D}"
-              p:after="*[1=2]" />
+              p:after="*[1=2]"
+              s:ds="{0E4A63DA-7496-557E-BF80-5BD52255E431}"
+              s:id="{A2D042EC-8EB0-436D-8784-4B8D5AA01212}"
+              s:par="FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;CacheClearingBehavior=Clear%20on%20publish" />
           </d>
         </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
@@ -92,4 +95,4 @@ Languages:
       Value: news
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "22cc70f5-01a5-42ac-a477-a1b73b444b85"
+      Value: "b1e29a3e-a0df-4bf0-a376-4554a28101a2"
