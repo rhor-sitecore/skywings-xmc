@@ -65,7 +65,7 @@ const SkyWingsBlogList = (props: SkyWingsBlogListProps): JSX.Element => {
           <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2"><Text field={news.fields.Title} /></h3>
           <div className="text-gray-600 text-sm mb-4 line-clamp-3"><RichText field={news.fields.Excerpt} /></div>
           <div className="flex items-center justify-between">
-            <Link href={`/blog/${news.url}`}>
+            <Link href={news.url}>
               <Button variant="outline" size="sm">
                 Read More
               </Button>
