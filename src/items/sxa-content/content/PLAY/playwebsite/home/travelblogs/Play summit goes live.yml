@@ -2,7 +2,7 @@
 ID: "e4ea6cae-3afd-4edf-bb3c-686bd83c898b"
 Parent: "0e4a63da-7496-557e-bf80-5bd52255e431"
 Template: "4b8f13a2-ef1a-4a41-857d-a2191fd7c1e7"
-Path: /sitecore/content/PLAY/playwebsite/home/news/Play summit goes live
+Path: /sitecore/content/PLAY/playwebsite/home/travelblogs/Play summit goes live
 SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier

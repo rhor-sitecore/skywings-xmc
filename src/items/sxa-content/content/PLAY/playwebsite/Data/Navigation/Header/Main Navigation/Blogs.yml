@@ -17,11 +17,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "175d14f0-1cef-4a06-9721-a81ba5262b16"
+      Value: "a07d6dbe-3cbb-4ac0-9f1b-10f5d7da1b52"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" />
+        <link class="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/travelblogs" />
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

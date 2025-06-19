@@ -24,10 +24,10 @@ Languages:
     - ID: "3df1996f-e6b3-52c9-82c7-c8ba54147c1f"
       Hint: callToActionLink
       Value: |
-        <link id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" linktype="internal" text="View All News" querystring="" url="/PLAY/playwebsite/home/news" />
+        <link querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" linktype="internal" text="View All News" url="/PLAY/playwebsite/home/travelblogs" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "864d11c2-2c48-449d-bcf2-eef23ceb9d17"
+      Value: "3152a436-fe57-418e-a36a-1b2e847b301d"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -38,10 +38,10 @@ Languages:
     - ID: "3df1996f-e6b3-52c9-82c7-c8ba54147c1f"
       Hint: callToActionLink
       Value: |
-        <link id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" linktype="internal" text="Voir toutes les nouvelles" querystring="" url="/PLAY/playwebsite/home/news" />
+        <link querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" linktype="internal" text="Voir toutes les nouvelles" url="/PLAY/playwebsite/home/travelblogs" />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{F103752C-F458-47E0-B322-99785275BDB9}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b15b0ba9-dd52-489c-8df0-939ea8b4a6f7"
+      Value: "dc01314e-3825-4bf8-8e53-b2de8a694696"

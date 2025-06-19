@@ -12,19 +12,19 @@ SharedFields:
   Value: /sitecore/templates/Project/Global/CMP Entities/News
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/PLAY/playwebsite/home/news
+  Value: /sitecore/content/PLAY/playwebsite/home/travelblogs
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d177f6fb-f7d6-4a9d-b326-e3d0361506fb"
+  Value: "573cb1e7-4f1f-4a1f-9741-6042a39d87f8"
 Languages:
 - Language: en
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "38de8f19-b64f-4875-8e0d-525a5c5584da"
+    Value: "f1fb95e9-d1e5-404b-a0e6-e82b281639a4"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5077092-509a-4839-9263-a5e93d6e0ac7"
+      Value: "f762f6f9-f0c3-47fb-89d5-40f28e6de3e8"

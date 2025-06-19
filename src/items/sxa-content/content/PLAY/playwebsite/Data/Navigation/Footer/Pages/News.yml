@@ -14,11 +14,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2bd09684-4a85-4163-aa25-653cc81886ff"
+      Value: "07aa2cbe-fcef-4ea4-8faf-892a38a04114"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/news" />
+        <link class="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/travelblogs" />
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -29,8 +29,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dec6a41c-f0e6-4e90-a237-6c65fad7226d"
+      Value: "6a322ee8-c461-498e-9fb0-04a4a24e3e64"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/news" />
+        <link class="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/travelblogs" />

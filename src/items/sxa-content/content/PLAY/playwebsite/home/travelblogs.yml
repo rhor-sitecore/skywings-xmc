@@ -2,7 +2,7 @@
 ID: "0e4a63da-7496-557e-bf80-5bd52255e431"
 Parent: "2d1d7aca-9597-5ca6-85b2-9b04907e4298"
 Template: "95cb88e7-8068-4a9c-9eeb-05f9a22c49d4"
-Path: /sitecore/content/PLAY/playwebsite/home/news
+Path: /sitecore/content/PLAY/playwebsite/home/travelblogs
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters

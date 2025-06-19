@@ -20,7 +20,7 @@ Languages:
     - ID: "19435351-42ca-458d-8360-047cd2c03130"
       Hint: LeftOfferLink
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" />
+        <link class="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/travelblogs" />
     - ID: "464b0d3d-c952-4b5b-9b13-264bdcd01413"
       Hint: LeftOfferBadge
       Value: 40% Off
@@ -44,7 +44,7 @@ Languages:
       Value: Summer Sale
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3f94dc1-32b3-49ad-8547-eec1186db7cb"
+      Value: "409515c0-ccf4-49c3-8277-d9fb4933e89c"
     - ID: "9e329e83-d883-4261-a25d-0b9c0f26e863"
       Hint: RightOfferLink
       Value: |
