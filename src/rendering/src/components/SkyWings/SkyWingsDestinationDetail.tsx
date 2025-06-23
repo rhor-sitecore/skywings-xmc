@@ -6,9 +6,7 @@ import {
     Image,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { newsDateFormatter } from '../../helpers/DateHelper';
 import Head from 'next/head';
-import Link from 'next/link';
 import { removeTags } from 'src/helpers/ContentSearchHelper';
 import { Button } from "@/src/components/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/src/components/components/ui/card"
@@ -17,16 +15,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/src/components/compo
 import { Separator } from "@/src/components/components/ui/separator"
 import {
   Plane,
-  Star,
-  Calendar,
-  Thermometer,
-  Clock,
   Camera,
   Bed,
   Phone,
-  ArrowLeft,
-  Heart,
-  Share2,
   Navigation,
   Sun,
   Cloud,
