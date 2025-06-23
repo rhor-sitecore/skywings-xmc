@@ -14,6 +14,11 @@ Languages:
     - ID: "1a13b43e-eccb-4cd0-b116-da09da2a3d86"
       Hint: Continent
       Value: Asia
+    - ID: "24662251-c1bc-4376-87d0-abbda153d61e"
+      Hint: Description
+      Value: |
+        <p>Bali shines as a beacon of cultural vibrancy and abiding heritage, where traditional elements infuse everyday life with profundity and meaning. The island is home to numerous temples, the most iconic being the centuries-old Tanah Lot Temple, situated majestically atop a rock formation and famous for its sunset views. Temples are the epicenter of Balinese cultural activities; frequent ceremonies are held to honor spiritual deities, each accompanied by the mellifluous sounds of gamelan orchestras&mdash;a symphony of gongs and chimes creating an otherworldly ambiance.</p>
+        <p>Furthermore, traditional Balinese dance forms are quintessential, capturing the island&rsquo;s ethos with their intricate movements and regal costumes. Dances such as Barong and Legong are deeply sacred, narrating stories of good and evil interwoven with mystical elements. Participation in these cultural festivities offers a profound connection to Bali's spiritual roots and provides a unique cultural immersion experience. United Airlines supports these experiences by ensuring travelers can dive deeply into Bali's historical and social tapestry, making cultural memories that unite people of diverse backgrounds.</p>
     - ID: "49d537b9-a946-4e37-8014-5dddc3645b50"
       Hint: Country
       Value: Indonesia
@@ -29,7 +34,7 @@ Languages:
         <image mediaid="{72B297F7-0A59-43AF-B694-2DAF432045EB}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30601db5-cb25-4f7d-9162-9b0107599a9c"
+      Value: "9e2532c7-c6f4-44dc-9214-3634389c7be3"
     - ID: "c2f2b003-e9fc-41d1-8514-450e54da0e4f"
       Hint: Type
       Value: Beach

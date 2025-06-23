@@ -10,6 +10,7 @@ import { SkyWingsDestinations } from 'src/types/skyWingsDestinations';
 import { Button } from "@/src/components/components/ui/button"
 import { Card, CardContent } from "@/src/components/components/ui/card"
 import { Badge } from "@/src/components/components/ui/badge"
+import Link from 'next/link';
 import {
     MapPin,
     Star,
@@ -126,7 +127,7 @@ const SkyWingsDestinationsList = (props: SkyWingsDestinationsListProps): JSX.Ele
                                     {/* Actions */}
                                     <div className="flex space-x-2">
                                         <Button className="flex-1">Book Flight</Button>
-                                        <Button variant="outline">Learn More</Button>
+                                        <Link href={destination.url}>Learn More</Link>
                                     </div>
                                 </CardContent>
                             </Card>
