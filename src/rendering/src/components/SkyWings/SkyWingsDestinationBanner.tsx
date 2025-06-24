@@ -43,7 +43,7 @@ const SkyWingsDestinationBanner = (props: SkyWingsDestinationBannerProps): JSX.E
                         field={props.fields.BannerImage}
                         height={500}
                         width={1200}
-                        className="object-cover"
+                        className="object-cover h-[500px]"
                     />
                     <div className="absolute bottom-8 left-8 text-white">
                         <div className="flex items-center space-x-2 mb-2">
