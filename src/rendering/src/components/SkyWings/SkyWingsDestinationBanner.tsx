@@ -41,11 +41,10 @@ const SkyWingsDestinationBanner = (props: SkyWingsDestinationBannerProps): JSX.E
                 <div className="relative h-96 md:h-[500px]">
                     <Image
                         field={props.fields.BannerImage}
-                        fill
+                        height={500}
+                        width={1200}
                         className="object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-
                     <div className="absolute bottom-8 left-8 text-white">
                         <div className="flex items-center space-x-2 mb-2">
                             <Badge className="bg-blue-600"><Text field={props.fields.Continent} /></Badge>
