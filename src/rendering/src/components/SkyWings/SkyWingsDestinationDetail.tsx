@@ -264,7 +264,7 @@ const SkyWingsDestinationDetail = (props: SkyWingsDestinationDetailProps): JSX.E
                         </section>
 
                         {/* Photo Gallery */}
-                        <section className="mb-12">
+                        {/* <section className="mb-12">
                             <h2 className="text-2xl font-bold text-gray-900 mb-6">Photo Gallery</h2>
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                                 {destination.gallery.map((image, index) => (
@@ -278,7 +278,7 @@ const SkyWingsDestinationDetail = (props: SkyWingsDestinationDetailProps): JSX.E
                                     </div>
                                 ))}
                             </div>
-                        </section>
+                        </section> */}
 
                         {/* Top Highlights */}
                         <section className="mb-12">

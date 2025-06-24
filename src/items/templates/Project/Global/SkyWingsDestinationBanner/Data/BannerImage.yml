@@ -1,0 +1,23 @@
+﻿---
+ID: "917cc86d-2895-4947-a20a-b309816bd009"
+Parent: "8718dc72-b31c-4e1c-8c6b-c058c1bd586c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Global/SkyWingsDestinationBanner/Data/BannerImage
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2600
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ea756577-2d86-4fb6-b7c8-73178bf285f0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6be5fd5d-9cb4-454f-9673-ff0b715ea5b4"

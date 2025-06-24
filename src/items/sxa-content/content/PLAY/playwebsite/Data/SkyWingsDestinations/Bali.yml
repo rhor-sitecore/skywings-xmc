@@ -1,0 +1,25 @@
+﻿---
+ID: "c966e3aa-7f0b-4c55-8d6f-e9c2fcea9c8c"
+Parent: "269fc8ab-95b0-4d93-904b-5d9d240ba235"
+Template: "16f26af7-eb8e-46a4-9859-4f24fd92b1c3"
+Path: /sitecore/content/PLAY/playwebsite/Data/SkyWingsDestinations/Bali
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2558ec0d-1483-44a6-bb42-aa5ec519c546"
+      Hint: Continent
+      Value: Asia
+    - ID: "8b7d29de-643e-4aaf-bc54-f213f910f6d1"
+      Hint: Country
+      Value: Indonesia
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30c79b75-76bc-4df6-82b8-8e6a9a2d9727"
+    - ID: "a0a53a90-5e79-4945-ae94-bc960769c6c0"
+      Hint: Name
+      Value: Bali
+    - ID: "c541fdae-a4f7-4e0b-99da-54efe50432b4"
+      Hint: Rating
+      Value: 4.9
