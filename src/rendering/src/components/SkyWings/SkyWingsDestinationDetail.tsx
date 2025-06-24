@@ -21,7 +21,6 @@ import {
   Navigation,
   Sun,
   Cloud,
-  Snowflake,
 } from "lucide-react"
 
 type SkyWingsDestinationDetailProps = ComponentProps & {
