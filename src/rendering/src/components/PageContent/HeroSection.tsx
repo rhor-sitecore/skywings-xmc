@@ -16,6 +16,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Calendar } from "@/src/components/components/ui/calendar"
 import { Button } from "@/src/components/components/ui/button"
 import { Input } from "@/src/components/components/ui/input"
+import {
+  Text,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 export type HeroProps = ComponentProps & {
   fields: {
@@ -35,9 +38,9 @@ const HeroSection = (props: HeroProps): JSX.Element => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Fly to Your Dreams</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6"><Text field={props.fields.Title} /></h1>
             <p className="text-xl md:text-2xl text-blue-100">
-              Discover the world with SkyWings. Book your next adventure today.
+              <Text field={props.fields.Slogan} />
             </p>
           </div>
 
@@ -123,7 +126,7 @@ const HeroSection = (props: HeroProps): JSX.Element => {
               <div className="mt-6">
                 <Button size="lg" className="w-full md:w-auto bg-blue-600 hover:bg-blue-700">
                   <Plane className="mr-2 h-5 w-5" />
-                  Search Flights
+                  <Text field={props.fields.Eyebrow} />
                 </Button>
               </div>
             </CardContent>
