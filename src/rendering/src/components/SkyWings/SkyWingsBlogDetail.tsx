@@ -4,6 +4,7 @@ import {
   Field,
   ImageField,
   Image,
+  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { Button } from "@/src/components/components/ui/button"
@@ -15,10 +16,11 @@ import Link from "next/link"
 type SkyWingsBlogDetailProps = ComponentProps & {
   fields: {
     Title: Field<string>;
-    Excerpt: Field<string>;
     PublishDate: Field<string>;
     Image: ImageField;
+    Introduction: Field<string>;
     Content: Field<string>;
+    AdditionalContent: Field<string>;
     Author: Field<string>;
     ReadTime: Field<string>;
     Category: Field<string>;
@@ -104,10 +106,29 @@ const SkyWingsBlogDetail = (props: SkyWingsBlogDetailProps): JSX.Element => {
             />
           </div>
 
+          {/* Introduction */}
+          <div className="prose prose-lg max-w-none mb-12">
+            <div className="text-gray-700 italic font-bold leading-relaxed space-y-6">
+              <RichText field={props.fields.Introduction} />
+            </div>
+          </div>
+
           {/* Article Content */}
           <div className="prose prose-lg max-w-none mb-12">
             <div className="text-gray-700 leading-relaxed space-y-6">
               <RichText field={props.fields.Content} />
+            </div>
+          </div>
+
+          {/* Container Placeholder for additional components */}
+          <div className="my-12">
+            <Placeholder name="page-promo" rendering={props.rendering} />
+          </div>
+
+          {/* Additional Content */}
+          <div className="prose prose-lg max-w-none mb-12">
+            <div className="text-gray-700 leading-relaxed space-y-6">
+              <RichText field={props.fields.AdditionalContent} />
             </div>
           </div>
         </div>
