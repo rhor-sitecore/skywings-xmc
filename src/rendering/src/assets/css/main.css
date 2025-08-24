@@ -1,3 +1,4 @@
+/* stylelint-disable no-invalid-position-at-import-rule */
 @charset "UTF-8";
 
 @tailwind base;
@@ -264,8 +265,24 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold mb-1 p-0;
+  }
+
+  h2 {
+    @apply text-2xl font-bold mb-2 p-0;
+  }
+
+  h3 {
+    @apply text-sm text-blue-600 font-bold p-0;
+  }
 }
 
 #headless-main-empty {
   min-width: 100%;
+}
+
+.promo .image > span {
+  display: flex;
 }

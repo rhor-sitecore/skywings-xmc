@@ -1,10 +1,10 @@
 import React from 'react';
 // DEMO TEAM CUSTOMIZATION - Removed Field and Text. Added RichTextField.
 import {
-  NextImage as JssImage,
   Link as JssLink,
   RichText as JssRichText,
   ImageField,
+  Image,
   LinkField,
   RichTextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -37,19 +37,12 @@ export const Default = (props: PromoProps): JSX.Element => {
   if (props.fields) {
     return (
       <div
-        className={`flex flex-col md:flex-row gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
+        className={`promo flex flex-col md:flex-row gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
         id={id ? id : undefined}
       >
         {/* Column 1: Image */}
-        <div className="relative flex-1 flex items-stretch *:flex">
-          <JssImage
-            field={props.fields.PromoIcon}
-            width={600}
-            height={400}
-            loading="lazy"
-            className="w-full h-auto object-cover"
-            style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
-          />
+        <div className="image relative flex-1 flex items-stretch">
+          <Image field={props.fields.PromoIcon} alt={props.fields.PromoText} width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
         </div>
         {/* Column 2: Text */}
         <div className="flex flex-col justify-center space-y-6 pr-8 flex-1">
@@ -81,7 +74,7 @@ export const ImageRight = (props: PromoProps): JSX.Element => {
   if (props.fields) {
     return (
       <div
-        className={`flex flex-col md:flex-row gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
+        className={`promo promo-right flex flex-col md:flex-row gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
         id={id ? id : undefined}
       >
         {/* Column 1: Text */}
@@ -103,15 +96,8 @@ export const ImageRight = (props: PromoProps): JSX.Element => {
           </div>
         </div>
         {/* Column 2: Image */}
-        <div className="relative flex-1 flex items-stretch *:flex">
-          <JssImage
-            field={props.fields.PromoIcon}
-            width={600}
-            height={400}
-            loading="lazy"
-            className="w-full h-auto object-cover"
-            style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
-          />
+        <div className="image relative flex-1 flex items-stretch">
+          <Image field={props.fields.PromoIcon} alt={props.fields.PromoText} width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
         </div>
       </div>
     );
@@ -125,10 +111,14 @@ export const ImageTop = (props: PromoProps): JSX.Element => {
   if (props.fields) {
     return (
       <div
-        className={`flex flex-col [&>*]:flex gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
+        className={`promo promo-top flex flex-col [&>*]:flex gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow ${props.params.styles}`}
         id={id ? id : undefined}
       >
-        {/* Column 1: Text */}
+        {/* Column 1: Image */}
+        <div className="image relative flex-1 flex items-stretch">
+          <Image field={props.fields.PromoIcon} alt={props.fields.PromoText} width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
+        </div>
+        {/* Column 2: Text */}
         <div className="flex flex-col justify-center space-y-6 pr-8 flex-1">
           <div className="p-6">
             <p className="text-sm text-blue-600 font-medium p-0">
@@ -145,17 +135,6 @@ export const ImageTop = (props: PromoProps): JSX.Element => {
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full"
             />
           </div>
-        </div>
-        {/* Column 2: Image */}
-        <div className="relative flex-1 flex items-stretch *:flex">
-          <JssImage
-            field={props.fields.PromoIcon}
-            width={600}
-            height={400}
-            loading="lazy"
-            className="w-full h-auto object-cover"
-            style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
-          />
         </div>
       </div>
     );
