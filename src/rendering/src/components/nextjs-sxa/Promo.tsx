@@ -42,7 +42,7 @@ export const Default = (props: PromoProps): JSX.Element => {
       >
         {/* Column 1: Image */}
         <div className="image relative flex-1 flex items-stretch">
-          <Image field={props.fields.PromoIcon} alt={props.fields.PromoText} width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
+          <Image field={props.fields.PromoIcon} alt="Image alt text" width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
         </div>
         {/* Column 2: Text */}
         <div className="flex flex-col justify-center space-y-6 pr-8 flex-1">
@@ -56,14 +56,16 @@ export const Default = (props: PromoProps): JSX.Element => {
             <p className="text-gray-600 mb-4 p-0">
               <JssRichText field={props.fields.PromoText2} className="text-gray-600 mb-4 p-0" />
             </p>
-            <JssLink
-              field={props.fields.PromoLink}
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full"
-            >  {/* Circle badge - Hidden by default.  Turn on in Sytling settings in Pages. */}
+            <div className="relative">
+              <JssLink
+                field={props.fields.PromoLink}
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full"
+              >  {/* Circle badge - Hidden by default.  Turn on in Sytling settings in Pages. */}
+              </JssLink>
               <span className="seat-counter hidden absolute -top-3 -right-3 items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-xs font-bold shadow-md z-10">
                 12
               </span>
-            </JssLink>
+            </div>
           </div>
         </div>
       </div>
