@@ -4,12 +4,14 @@ import {
   Field,
   Link as JssLink,
   LinkField,
+  Image,
+  ImageField,
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Card, CardContent, CardHeader, CardTitle } from "@/src/components/components/ui/card"
 import { Badge } from "@/src/components/components/ui/badge"
 import { Button } from "@/src/components/components/ui/button"
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export type SkyWingsOffersProps = ComponentProps & {
   fields: {
@@ -30,6 +32,7 @@ export type SkyWingsOffersProps = ComponentProps & {
     RightOfferText: Field<string>;
     RightOfferValid: Field<string>;
     RightOfferLink: LinkField;
+    RightOfferImage: ImageField;
   };
 };
 
@@ -111,14 +114,14 @@ const SkyWingsOffersBusinessComponent = ({ fields, params }: SkyWingsOffersProps
 
         <div className="promo flex flex-col md:flex-row gap-8 mb-12 rounded-xl border bg-card text-card-foreground shadow overflow-hidden hover:shadow-lg transition-shadow basis-full ">
           <div className="image relative flex-1 flex items-stretch max-h-96">
-            <Image alt="Image alt text" width="600" height="400" loading="lazy" className="w-full h-auto object-cover" src="/-/media/Project/PLAY/playwebsite/media/img/christina-spoerer-IDihFjpf3-g-unsplash.jpg?h=2879&iar=0&w=1920" />
+            <Image field={fields.RightOfferImage} width={600} height={400} loading="lazy" className="w-full h-auto object-cover" />
           </div>
           <div className="flex flex-col justify-center space-y-6 pr-8 flex-1">
             <div className="p-6">
               <div className="flex flex-col space-y-1.5">
                 <div className="flex justify-between items-start">
                   <div className="font-semibold tracking-tight text-xl text-gray-900"><Text field={fields.RightOfferTitle} /></div>
-                  <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground shadow hover:bg-destructive/80 text-lg px-3 py-1"><Text field={fields.RightOfferValid} /></div>
+                  <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground shadow hover:bg-destructive/80 text-lg px-3 py-1"><Text field={fields.RightOfferBadge} /></div>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">Refundable<br />
@@ -136,7 +139,7 @@ const SkyWingsOffersBusinessComponent = ({ fields, params }: SkyWingsOffersProps
               </p>
               <div className="relative">
                 <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full">BOOK</Button>
-                <span className="seat-counter hidden absolute -top-3 -right-3 items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-xs font-bold shadow-md z-10">12</span>
+                <span className="seat-counter absolute -top-3 -right-3 items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-xs font-bold shadow-md z-10">12</span>
               </div>
             </div>
           </div>
