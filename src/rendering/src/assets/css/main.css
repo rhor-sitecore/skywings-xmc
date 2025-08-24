@@ -275,7 +275,7 @@
   }
 
   h3 {
-    @apply text-sm text-blue-600 font-bold p-0;
+    @apply text-base text-blue-600 font-bold p-0 mt-2;
   }
 }
 
@@ -285,4 +285,8 @@
 
 .promo .image > span {
   display: flex;
+}
+
+.promo span.ck {
+  padding-left: 0 !important
 }
