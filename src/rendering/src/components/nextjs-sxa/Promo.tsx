@@ -41,13 +41,13 @@ export const Default = (props: PromoProps): JSX.Element => {
         id={id ? id : undefined}
       >
         {/* Column 1: Image */}
-        <div className="relative flex-1 flex items-stretch">
+        <div className="relative flex-1 flex items-stretch *:flex">
           <JssImage
             field={props.fields.PromoIcon}
             width={600}
             height={400}
             loading="lazy"
-            className="w-full h-auto object-cover *:flex"
+            className="w-full h-auto object-cover"
             style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
           />
         </div>
@@ -103,13 +103,13 @@ export const ImageRight = (props: PromoProps): JSX.Element => {
           </div>
         </div>
         {/* Column 2: Image */}
-        <div className="relative flex-1 flex items-stretch">
+        <div className="relative flex-1 flex items-stretch *:flex">
           <JssImage
             field={props.fields.PromoIcon}
             width={600}
             height={400}
             loading="lazy"
-            className="w-full h-auto object-cover *:flex"
+            className="w-full h-auto object-cover"
             style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
           />
         </div>
@@ -147,13 +147,13 @@ export const ImageTop = (props: PromoProps): JSX.Element => {
           </div>
         </div>
         {/* Column 2: Image */}
-        <div className="relative flex-1 flex items-stretch">
+        <div className="relative flex-1 flex items-stretch *:flex">
           <JssImage
             field={props.fields.PromoIcon}
             width={600}
             height={400}
             loading="lazy"
-            className="w-full h-auto object-cover *:flex"
+            className="w-full h-auto object-cover"
             style={{ height: "100%" }} // Ensures image fills the container, but container height is set by text column
           />
         </div>
