@@ -290,3 +290,8 @@
 .promo span.ck {
   padding-left: 0 !important
 }
+
+/* Promo seat counter */
+.promo.seat-counter-visible .seat-counter {
+  display: flex !important;
+}
