@@ -295,3 +295,17 @@
 .promo.seat-counter-visible .seat-counter {
   display: flex !important;
 }
+
+/* Blog hero image fix for DAM images */
+.hero-image img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero-image img {
+    height: 24rem /* 384px */;
+  }
+}

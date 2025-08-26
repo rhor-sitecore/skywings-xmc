@@ -97,7 +97,7 @@ const SkyWingsBlogDetail = (props: SkyWingsBlogDetailProps): JSX.Element => {
           </div>
 
           {/* Featured Image */}
-          <div className="mb-8">
+          <div className="mb-8 hero-image">
             <Image
               field={props.fields.Image}
               width={1200}
