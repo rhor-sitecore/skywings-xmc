@@ -142,7 +142,7 @@ const SkyWingsOffersBusinessComponent = ({ fields, params }: SkyWingsOffersProps
                   field={fields.RightOfferLink}
                   className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full"
                 />
-                <span className="seat-counter flex absolute -top-3 -right-3 items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-xs font-bold shadow-md z-10">12</span>
+                <span className="seat-counter flex absolute -top-3 -right-3 items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-xs font-bold shadow-md z-10"><Text field={fields.LeftOfferValid} /></span>
               </div>
             </div>
           </div>
